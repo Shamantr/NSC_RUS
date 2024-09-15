@@ -1,0 +1,59 @@
+﻿l_russian:
+
+### 디시인사이드 스텔라리스 갤러리 '어ㅅㅂ' 제작 ###
+
+###########################
+### MOTHBALL EVENT ###
+###########################
+
+decision_nsc_mothball_menu:0 "Контроль системы консервации"
+decision_nsc_mothball_menu_desc:0 "Нажмите, чтобы открыть меню системы консервации."
+decision_nsc_mothball_menu_trigger.fail:0 "£trigger_no£ §RЧтобы воспользоваться этой функцией, на орбите над этой планетой должен находиться принадлежащий вам флот.§!\n\n§Y(Если вы не можете использовать эту функцию, нажмите на каждый законсервированный флот и щелкните правой кнопкой мыши на планете, чтобы убедиться, что они отмечены как 'на орбите".§!"
+decision_nsc_mothball_menu_tooltip:0 "Нажмите, чтобы открыть меню системы консервации."
+nsc_events_mothball.menu.name:0 "$decision_nsc_mothball_menu$"
+nsc_events_mothball.menu.desc:0 "Добро пожаловать в систему консервации флота. В этом окне вы можете выбрать флоты для консервации или реактивации. Обратите внимание на следующее:\n\n\nПланета должна быть колонизирована вашей империей, чтобы законсервировать флоты на ее орбите. До 5 флотов могут быть законсервированы на орбите планеты в любой момент времени.\n\n Арендованные флоты не могут быть законсервированы.\n\nЗаконсервировав флот, вы уменьшите использование его военно-морских мощностей на 75% и сократите расходы на его содержание на 90%, пока он находится в законсервированном состоянии.\n\nВы не сможете контролировать или перемещать законсервированные флоты. Если вы случайно нажмете на законсервированный флот и попытаетесь его переместить, просто нажмите на него снова и щелкните правой кнопкой мыши на планете, чтобы пометить ее как "На орбите". Вы не сможете активировать флот, который не помечен как "На орбите".\n\nРеактивация флота будет стоить сплавов, чтобы восстановить корабли до состояния боевой готовности. Стоимость будет зависеть от общего количества хитпоинтов всех кораблей флота. Реактивация флота занимает 360 дней на ремонт.\n\n§ВНИМАНИЕ: Убедитесь, что вы можете позволить себе увеличение расходов на содержание и военно-космической мощности флота перед его реактивацией!§!"
+nsc_events_mothball.menu.close:0 "Закрыть"
+nsc_events_mothball.menu.fleet_mothball_stop.tooltip:0 "Привести корабли в боевую готовность."
+nsc_mothball_stop_trigger.fail:0 "Флот уже находится в состоянии возврата к боевой готовности."
+
+nsc_events_mothball.menu.fleet_1_mothball_start:0 "Законсервировать §Y[nsc_mothball_target_fleet_1.GetName]§!  (Стоимость расконсервирования: £alloys£§Y[nsc_mothball_target_fleet_1.nsc_mothball_target_fleet_total_cost_var]§!)"
+nsc_events_mothball.menu.fleet_1_mothball_start.tooltip:0 "Начало консервации флота.\nСтоимость расконсервирования: £alloys£§Y[nsc_mothball_target_fleet_1.nsc_mothball_target_fleet_total_cost_var]§!"
+nsc_events_mothball.menu.fleet_1_mothball_stop:0 "Расконсервировать §Y[nsc_mothball_target_fleet_1.GetName]§!  (Стоимость: £alloys£§Y[nsc_mothball_target_fleet_1.nsc_mothball_target_fleet_total_cost_var]§!)"
+nsc_events_mothball.menu.fleet_1_mothball_restoration_in_progress:0 "Расконсервирование [nsc_mothball_target_fleet_1.GetName]  (£time£ §Y[nsc_mothball_target_fleet_1.nsc_fleet_in_mothball_repair_timer_var]§! дней)"
+nsc_events_mothball.menu.fleet_1_mothball_restoration_timer.tooltip:0 "Время на расконсервирование: £time£ §Y[nsc_mothball_target_fleet_1.nsc_fleet_in_mothball_repair_timer_var]§! дней"
+
+nsc_events_mothball.menu.fleet_2_mothball_start:0 "Законсервировать §Y[nsc_mothball_target_fleet_2.GetName]§!  (Стоимость расконсервирования: £alloys£§Y[nsc_mothball_target_fleet_2.nsc_mothball_target_fleet_total_cost_var]§!)"
+nsc_events_mothball.menu.fleet_2_mothball_start.tooltip:0 "Начало консервации флота.\nСтоимость расконсервирования: £alloys£§Y[nsc_mothball_target_fleet_2.nsc_mothball_target_fleet_total_cost_var]§!"
+nsc_events_mothball.menu.fleet_2_mothball_stop:0 "Расконсервировать §Y[nsc_mothball_target_fleet_2.GetName]§!  (Стоимость: £alloys£§Y[nsc_mothball_target_fleet_2.nsc_mothball_target_fleet_total_cost_var]§!)"
+nsc_events_mothball.menu.fleet_2_mothball_restoration_in_progress:0 "Расконсервирование [nsc_mothball_target_fleet_2.GetName]  (£time£ §Y[nsc_mothball_target_fleet_2.nsc_fleet_in_mothball_repair_timer_var]§! дней)"
+nsc_events_mothball.menu.fleet_2_mothball_restoration_timer.tooltip:0 "Время на расконсервирование: £time£ §Y[nsc_mothball_target_fleet_2.nsc_fleet_in_mothball_repair_timer_var]§! дней"
+
+nsc_events_mothball.menu.fleet_3_mothball_start:0 "Законсервировать §Y[nsc_mothball_target_fleet_2.GetName]§!  (Стоимость расконсервирования: £alloys£§Y[nsc_mothball_target_fleet_2.nsc_mothball_target_fleet_total_cost_var]§!)"
+nsc_events_mothball.menu.fleet_3_mothball_start.tooltip:0 "Начало консервации флота.\nСтоимость расконсервирования: £alloys£§Y[nsc_mothball_target_fleet_2.nsc_mothball_target_fleet_total_cost_var]§!"
+nsc_events_mothball.menu.fleet_3_mothball_stop:0 "Расконсервировать §Y[nsc_mothball_target_fleet_2.GetName]§!  (Стоимость: £alloys£§Y[nsc_mothball_target_fleet_2.nsc_mothball_target_fleet_total_cost_var]§!)"
+nsc_events_mothball.menu.fleet_3_mothball_restoration_in_progress:0 "Расконсервирование [nsc_mothball_target_fleet_2.GetName]  (£time£ §Y[nsc_mothball_target_fleet_2.nsc_fleet_in_mothball_repair_timer_var]§! дней)"
+nsc_events_mothball.menu.fleet_3_mothball_restoration_timer.tooltip:0 "Время на расконсервирование: £time£ §Y[nsc_mothball_target_fleet_2.nsc_fleet_in_mothball_repair_timer_var]§! дней"
+
+nsc_events_mothball.menu.fleet_4_mothball_start:0 "Законсервировать §Y[nsc_mothball_target_fleet_2.GetName]§!  (Стоимость расконсервирования: £alloys£§Y[nsc_mothball_target_fleet_2.nsc_mothball_target_fleet_total_cost_var]§!)"
+nsc_events_mothball.menu.fleet_4_mothball_start.tooltip:0 "Начало консервации флота.\nСтоимость расконсервирования: £alloys£§Y[nsc_mothball_target_fleet_2.nsc_mothball_target_fleet_total_cost_var]§!"
+nsc_events_mothball.menu.fleet_4_mothball_stop:0 "Расконсервировать §Y[nsc_mothball_target_fleet_2.GetName]§!  (Стоимость: £alloys£§Y[nsc_mothball_target_fleet_2.nsc_mothball_target_fleet_total_cost_var]§!)"
+nsc_events_mothball.menu.fleet_4_mothball_restoration_in_progress:0 "Расконсервирование [nsc_mothball_target_fleet_2.GetName]  (£time£ §Y[nsc_mothball_target_fleet_2.nsc_fleet_in_mothball_repair_timer_var]§! дней)"
+nsc_events_mothball.menu.fleet_4_mothball_restoration_timer.tooltip:0 "Время на расконсервирование: £time£ §Y[nsc_mothball_target_fleet_2.nsc_fleet_in_mothball_repair_timer_var]§! дней"
+
+nsc_events_mothball.menu.fleet_5_mothball_start:0 "Законсервировать §Y[nsc_mothball_target_fleet_2.GetName]§!  (Стоимость расконсервирования: £alloys£§Y[nsc_mothball_target_fleet_2.nsc_mothball_target_fleet_total_cost_var]§!)"
+nsc_events_mothball.menu.fleet_5_mothball_start.tooltip:0 "Начало консервации флота.\nСтоимость расконсервирования: £alloys£§Y[nsc_mothball_target_fleet_2.nsc_mothball_target_fleet_total_cost_var]§!"
+nsc_events_mothball.menu.fleet_5_mothball_stop:0 "Расконсервировать §Y[nsc_mothball_target_fleet_2.GetName]§!  (Стоимость: £alloys£§Y[nsc_mothball_target_fleet_2.nsc_mothball_target_fleet_total_cost_var]§!)"
+nsc_events_mothball.menu.fleet_5_mothball_restoration_in_progress:0 "Расконсервирование [nsc_mothball_target_fleet_2.GetName]  (£time£ §Y[nsc_mothball_target_fleet_2.nsc_fleet_in_mothball_repair_timer_var]§! дней)"
+nsc_events_mothball.menu.fleet_5_mothball_restoration_timer.tooltip:0 "Время на расконсервирование: £time£ §Y[nsc_mothball_target_fleet_2.nsc_fleet_in_mothball_repair_timer_var]§! дней"
+
+nsc_events_mothball.5.name:0 "Мы потеряли корабли над [From.GetName]"
+nsc_events_mothball.5.desc:0 "Когда мир [From.GetName] был захвачен врагом, наши законсервированные флоты были уничтожены персоналом, чтобы они не попали в руки врага."
+nsc_events_mothball.5.a:0 "Наступили темные дни для [This.GetName]."
+
+nsc_events_mothball.6.name:0 "Вражеские корабли уничтожены над [From.GetName]"
+nsc_events_mothball.6.desc:0 "Когда мы захватили мир [From.GetName], были обнаружены вражеские законсервированные корабли. Они были уничтожены их персоналом во избежание захвата."
+nsc_events_mothball.6.a:0 "Досадно."
+
+nsc_events_mothball.8.name:0 "Мы потеряли корабли над [From.GetName]"
+nsc_events_mothball.8.desc:0 "Когда мы покинули [From.GetName], кто-то забыл активировать законсервированные флоты на орбите. В результате они были уничтожены вместе со всеми другими орбитальными объектами."
+nsc_events_mothball.8.a:0 "Это просто смешно!"

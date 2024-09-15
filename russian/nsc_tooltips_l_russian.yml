@@ -1,0 +1,45 @@
+﻿l_russian:
+
+##################################################################################################################################################################################################################
+### TOOLTIPS ###
+################
+
+requires_no_existing_nsc_factory:0 "Вы можете построить только одну Фабрику стратегических ресурсов."
+requires_no_existing_mall:0 "Вы можете построить только один ГалактМолл."
+requires_no_existing_hospital:0 "Вы пожете построить только один Большой Галактический Госпиталь."
+
+TBA:0 "\n§g(- Description To Be Added -)§!\n"
+
+hq_limit:0 "§RТолько один §Y$sm_hq_annex$§! может быть построен.§!"
+drydock_limit:0 "§RТолько один §Y$sm_drydock$§! может быть построен.§!"
+starbase_management_limit:0 "§RТолько пять §Y$sm_starbase_management$§! может быть построено.§!"
+starbase_management_machine_limit:0 "§RТолько пять §Y$sm_starbase_management_machine$§! может быть построено.§!"
+starbase_management_hive_limit:0 "§RТолько пять §Y$sm_starbase_management_hive$§! может быть построено.§!"
+requires_colony:0 "Требуется колонизированная планета"
+requires_stronghold:0 "Требуется Великая Цитадель"
+
+requires_technology_hyperlane_generation:0 "$TRIGGER_FAIL$Требуется технология £physics  §Y$tech_hyperlane_generation$§!."
+
+requires_no_existing_generator_emisor:0 "$TRIGGER_FAIL$Нельзя построить, когда уже существует §YГенератор гиперкоридоров (Излучатель)§! в государстве."
+requires_existing_generator_receptor:0 "$TRIGGER_FAIL$Требуется уже построенный §YГенератор гиперкоридоров (Приемник)§! в государстве."
+requires_existing_generator_emisor:0 "$TRIGGER_FAIL$Требуется уже построенный §YГенератор гиперкоридоров (Излучатель)§! в подконтрольной системе, не соединенной гиперкоридором с §Y[Root.GetName]§!."
+requires_no_existing_system_generator_emisor:0 "$TRIGGER_FAIL$Нельзя построить, пока §YГенератор гиперкоридоров (Излучатель)§! присутствует в системе."
+requires_no_existing_generator_receptor:0 "$TRIGGER_FAIL$Нельзя построить, пока §YГенератор гиперкоридоров (Приемник)§! присутствует в системе."
+
+requires_no_existing_remover_emisor:0 "$TRIGGER_FAIL$Нельзя построить, пока уже существует §YПрерыватель гиперкоридоров (Излучатель)§! в государстве."
+requires_existing_remover_receptor:0 "$TRIGGER_FAIL$Требуется уже построенный §YПрерыватель гиперкоридоров (Приемник)§! в государстве."
+requires_existing_remover_emisor:0 "$TRIGGER_FAIL$Requires existing §YПрерыватель гиперкоридоров (Излучатель)§! в подконтрольной системе, соединенной гиперкоридором с §Y[Root.GetName]§!."
+requires_no_existing_system_remover_emisor:0 "$TRIGGER_FAIL$Нельзя построить, пока уже существует §YПрерыватель гиперкоридоров (Излучатель)§! в системе."
+requires_no_existing_remover_receptor:0 "$TRIGGER_FAIL$Нельзя построить, пока уже существует §YПрерыватель гиперкоридоров (Приемник)§! в государстве."
+
+nsc_headquarters_bonus:0 "Бонус командной станции"
+
+requires_technology_exploration_cruiser:0 "Требуется §HИсследовательский крейсер (Уровень 1)§!"
+requires_technology_automated_exploration:0 "Требуется технологияй §BПротоколы автоматеческого изучения§!"
+requires_discovery_tree:0 "Требуется завершенное древо традиций §MОткрытие§!"
+
+starbase_h_limit.tooltip.fail: "Вы не можете построить больше 6 ангарных доков на базе."
+starbase_t_limit.tooltip.fail: "Вы не можете построить больше 2-х титанических орудий на базе."
+starbase_xl_limit.tooltip.fail: "Вы не можете построить больше 6 XL орудий на базе."
+
+nsc.requires.asteroid: "Требуется наличие астероида в системе."

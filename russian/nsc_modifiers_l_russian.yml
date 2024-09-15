@@ -1,0 +1,92 @@
+﻿l_russian:
+
+##################################################################################################################################################################################################################
+### MODIFIERS ###
+#################
+
+mod_shipsize_StrikeCruiser_upkeep_mult:0 "Содержание ударных крейсеров"
+mod_shipsize_StrikeCruiser_construction_speed_mult:0 "Strike Cruiser Construction Speed"
+mod_shipsize_StrikeCruiser_hull_mult:0 "Укрепление брони ударных крейсеров"
+mod_shipsize_StrikeCruiser_build_speed_mult:0 "Скорость постройки ударных крейсеров"
+mod_ship_StrikeCruiser_cost_mult:0 "Стоимость постройки ударных крейсеров"
+
+mod_shipsize_escortcarrier_upkeep_mult:0 "Содержание кораблей сопровождения"
+mod_shipsize_escortcarrier_construction_speed_mult:0 "Escort Carrier Construction Speed"
+mod_shipsize_escortcarrier_hull_mult:0 "Укрепление брони кораблей сопровождения"
+mod_shipsize_escortcarrier_build_speed_mult:0 "Скорость постройки кораблей сопровождения"
+mod_ship_escortcarrier_cost_mult:0 "Стоимость постройки кораблей сопровождения"
+
+mod_shipsize_Battlecruiser_upkeep_mult:0 "Содержание боевых крейсеров"
+mod_shipsize_Battlecruiser_construction_speed_mult:0 "Battlecruiser Construction Speed"
+mod_shipsize_Battlecruiser_hull_mult:0 "Укрепление брони боевых крейсеров"
+mod_shipsize_Battlecruiser_build_speed_mult:0 "Скорость постройки боевых крейсеров"
+mod_ship_Battlecruiser_cost_mult:0 "Стоимость постройки боевых крейсеров"
+
+mod_shipsize_Carrier_upkeep_mult:0 "Содержание авианосцев"
+mod_shipsize_Carrier_construction_speed_mult:0 "Carrier Construction Speed"
+mod_shipsize_Carrier_hull_mult:0 "Укрепление брони авианосцев"
+mod_shipsize_Carrier_build_speed_mult:0 "Скорость постройки авианосцев"
+mod_ship_Carrier_cost_mult:0 "Стоимость постройки авианосцев"
+
+mod_shipsize_Dreadnought_upkeep_mult:0 "Содержание дредноутов"
+mod_shipsize_Dreadnought_construction_speed_mult:0 "Dreadnought Construction Speed"
+mod_shipsize_Dreadnought_hull_mult:0 "Укрепление брони дредноутов"
+mod_shipsize_Dreadnought_build_speed_mult:0 "Скорость постройки дредноутов"
+mod_ship_Dreadnought_cost_mult:0 "Стоимость постройки дредноутов"
+
+mod_shipsize_titan_upkeep_mult:0 "Содержание титанов"
+mod_shipsize_titan_construction_speed_mult:0 "Titan Construction Speed"
+mod_shipsize_titan_hull_mult:0 "Укрепление брони титанов"
+mod_shipsize_titan_build_speed_mult:0 "Скорость постройки титанов"
+mod_ship_titan_cost_mult:0 "Стоимость постройки титанов"
+
+mod_shipsize_Flagship_upkeep_mult:0 "Содержание флагмана"
+mod_shipsize_Flagship_construction_speed_mult:0 "Flagship Construction Speed"
+mod_shipsize_Flagship_hull_mult:0 "Укрепление брони флагмана"
+mod_shipsize_Flagship_build_speed_mult:0 "Скорость постройки флагмана"
+mod_ship_Flagship_cost_mult:0 "Стоимость постройки флагмана"
+
+mod_country_resource_max_minerals_add:0 "Максимальный объем складов минералов"
+mod_country_resource_max_energy_add:0 "Максимальная емкость хранилищ энергии"
+
+mod_leader_admirals_upkeep_mult:0 "Содержание адмиралов"
+
+country_command_limit_mult: "Предел управляемость флотилий"
+
+mod_weapon_type_point_defense_weapon_damage_mult:0 "Point Defense Weapon Damage"
+
+mod_planet_livestock_produces_mult:0 "Livestock Output"
+
+mod_pop_category_purge_produces_mult:0 "Purge Pops Output"
+
+mod_deposit_blockers_time_cost_mult:0 "Время расчистки препятствий"
+
+mod_shipsize_military_station_medium_build_speed_mult:0 "Скорость постройки оборонительной станции"
+
+mod_shipsize_military_station_large_build_speed_mult:0 "Скорость постройки оборонительных укреплений"
+
+mod_light_ship_focus: "Специализация на легких судах"
+mod_light_ship_focus_desc: "Политика, ориентированная на флот быстрых, легких боевых кораблей. Обеспечивает +20% скорости строительства и -20% стоимости строительства для корветов, эсминцев и крейсеров, но поскольку наши верфи будут сосредоточены на этих конкретных кораблях, более крупные классы будут строиться на 20% медленнее и на 20% дороже."
+mod_versatility_focus: "Специализация на крейсерах"
+mod_versatility_focus_desc: "Политика, ориентированная на флот боевых кораблей среднего размера. Обеспечивает +20% скорости строительства и -20% стоимости строительства для стандартных, ударных и боевых крейсеров, но поскольку наши верфи будут сосредоточены на этих конкретных кораблях, другие классы будут строиться на 20% медленнее и на 20% дороже."
+mod_capital_focus: "Специализация на капитальных судах"
+mod_capital_focus_desc: "Политика, ориентированная на флот больших и мощных боевых кораблей. Обеспечивает +20% скорости строительства и -20% стоимости строительства линкорам, авианосцам, дредноутам и титанам, но поскольку наши верфи будут сосредоточены на этих конкретных кораблях, корабли меньших классов будут строиться на 20% медленнее и на 20% дороже."
+mod_carrier_focus: "Специализация на авианосцах"
+mod_carrier_focus_desc: "Политика, ориентированная на флот носителей, оснащенных большим количеством ударных кораблей. Обеспечивает +35% скорости строительства и -35% стоимости строительства для кораблей сопровождения и авианосцев, но поскольку наши верфи будут сосредоточены на этих конкретных кораблях, другие классы будут строиться на 20% медленнее и на 20% дороже."
+
+nsc_ship_in_mothball:0 "Законсервированные корабли"
+
+mod_nsc_non_artificial_planet_slave_produces_mult:0 "$pop_cat_slave$ продуктивности рабов на естественных планетах"
+mod_nsc_non_artificial_planet_worker_produces_mult:0 "$pop_cat_worker$ продуктивности рабочих на естественных планетах"
+mod_nsc_freebooter_jobs_produces_mult:0 "Продуктивность специалистов на орбитальных поселениях и реликтовых мирах"
+mod_nsc_freebooter_jobs_upkeep_mult:0 "Содержание специалистов на орбитальных поселениях и реликтовых мирах"
+
+ mod_shipsize_StrikeCruiser_hull_mult: "Вместимость корпуса ударного крейсера"
+ mod_shipsize_Battlecruiser_hull_mult: "Вместимость корпуса боевого крейсера"
+ mod_shipsize_Carrier_hull_mult: "Вместимость корпуса авианосца"
+ mod_shipsize_Dreadnought_hull_mult: "Вместимость корпуса дредноута"
+ mod_shipsize_Flagship_hull_mult: "Вместимость корпуса Флагмана"
+
+ mod_brawler_weapon_damage_mult: "Урон кинетического оружия"
+ mod_gunship_weapon_damage_mult: "Урон энергетического оружия"
+ mod_explosive_weapon_damage_mult: "Урон взрывного оружия"
