@@ -1,0 +1,498 @@
+﻿l_russian:
+
+##################################################################################################################################################################################################################
+### COMPONENTS ###
+##################
+
+NSC_STRIKE_CRUISER_AURA_EMPTY: "Пустая ячейка"
+NSC_TITAN_AURA_EMPTY: "Пустая ячейка"
+NSC_FLAGSHIP_AURA_EMPTY: "Пустая ячейка"
+SPECIAL_SLOT_EMPTY: "Пустая ячейка"
+EXPLORATION_SLOT_EMPTY: "Пустая ячейка"
+SPECIAL_NO_SEC_REACTOR: "Пустая ячейка"
+NSC_SUPPORTSHIP_AURA_EMPTY: "Пустая ячейка"
+
+nsc_supportship_aura: "Ауры эсминца поддержки"
+nsc_supportship_aura_DESC: "Различные продвинутые ауры, предназначенные для эсминца поддержки."
+nsc_supportship_hull_aura: "Аура эсм. поддержки - корпус"
+NSC_SUPPORTSHIP_HULL_AURA: "Аура эсм. поддержки - корпус"
+nsc_supportship_upkeep_aura: "Аура эсм. поддержки - содержание"
+NSC_SUPPORTSHIP_UPKEEP_AURA: "Аура эсм. поддержки - содержание"
+nsc_supportship_ftl_aura: "Аура эсм. поддержки - FTL"
+NSC_SUPPORTSHIP_FTL_AURA: "Аура эсм. поддержки - FTL"
+nsc_supportship_armor_aura: "Аура эсм. поддержки - броня"
+NSC_SUPPORTSHIP_ARMOR_AURA: "Аура эсм. поддержки - броня"
+nsc_supportship_shield_aura: "Аура эсм. поддержки - щит"
+NSC_SUPPORTSHIP_SHIELD_AURA: "Аура эсм. поддержки - щит"
+nsc_supportship_invasion_aura: "Аура эсм. поддержки - вторжение"
+NSC_SUPPORTSHIP_INVASION_AURA: "Аура эсм. поддержки - вторжение"
+
+NSC_AI_COMBAT_COMPUTER: "Боевая ИИ-система"
+nsc_ai: "Боевая ИИ-система"
+NSC_AI_BEHAVIOR_DESC: "Эта чрезвычайно продвинутая компьютерная система может интеллектуально управлять всеми боевыми системами корабля, не беря на себя управление штурвалом, что позволяет полностью контролировать движение во время боя.\n\n§GКак использовать:§! §BЭтот компьютер доступен только на определенных классах кораблей. Он позволит игроку непосредственно управлять их движением во время боя.\n\nКорабли, укомплектованные данной системой,§! §Hдолжны§! §Bбыть в составе флота себе подобных или других кораблей с аналогичным компьютером - контроль движения не будет работать с другими боевыми компьютерами.\n\nПосле оснащения флот переместится на указанную вами позицию и будет вести огонь до тех пор, пока цель находится в радиусе действия оружия.§! §HФлот не будет двигаться снова, пока вы не прикажете ему сделать это.§!"
+
+nsc_strike_cruiser_aura: "Продвинутые боевые системы перехвата I"
+nsc_strike_cruiser_aura_DESC: "Передовые боевые системы работают как перехватчик, блокируя все вражеские корабли в радиусе действия и не давая им убежать или выйти из боя. Обязательная вещь для любого адмирала, преследующего уступающие или уклоняющиеся силы."
+nsc_strike_cruiser_aura_2: "Продвинутые боевые системы перехвата II"
+NSC_STRIKE_CRUISER_AURA_2_DESC: "Этот обновленный модуль боевой системы - еще более эффективный перехватчик, чем его предшественник. Все враждебные силы в радиусе действия будут вынуждены стоять и сражаться довольно долго, прежде чем они смогут попытаться сбежать."
+nsc_strike_cruiser_upgrade: "Системы модернизации в тяжёлый крейсер"
+nsc_strike_cruiser_upgrade_desc: "Этот модуль содержит все необходимые системы для модернизации крейсера в его тяжёлый вариант."
+nsc_titan_aura: "Сеть командования флотом"
+nsc_flagship_aura: "Продвинутая сеть командования флота"
+
+NSC_STRIKE_CRUISER_AURA: "Продвинутые боевые системы перехвата I"
+NSC_STRIKE_CRUISER_AURA_2: "Продвинутые боевые системы перехвата II"
+NSC_TITAN_AURA: "Сеть командования флотом"
+NSC_FLAGSHIP_AURA: "Продвинутая сеть командования флота"
+
+special_ship_slot: "Спецкомпонент"
+special_ship_slot_DESC: "Ячейка спецкомпонента"
+
+exploration_ship_slot: "Исследовательский модуль"
+exploration_ship_slot_DESC: "Ячейка специального исследовательского модуля"
+
+hq_ftl_components: "Прыжковый двигатель Штаб-квартиры"
+hq_ftl_components_DESC: "Ячейка для прыжкового двигателя Штаб-квартиры."
+
+special_ship_slot: "Спецкомпонент"
+special_ship_slot_DESC: "Ячейка спецкомпонента"
+
+SPECIAL_SLOT_MULTIPHASIC_SENSORS: "Многофазные сенсоры"
+SPECIAL_SLOT_MULTIPHASIC_SENSORS_DESC:0 "Эти усовершенствованные датчики увеличивают дальность действия сенсоров с помощью многофазных генераторов, обновляя и дополняя нашу карту галактики путем предварительного сканирования обширных пространств на расстоянии."
+SPECIAL_SLOT_DAMAGE_CONTROL: "Команды контроля повреждений"
+SPECIAL_SLOT_DAMAGE_CONTROL_DESC: "Эти специализированные члены экипажа обучены быстрому ремонту корабля в условиях боевых действий, что позволяет продлить срок службы корабля и сократить необходимость возвращаться домой для ремонта после боевых действий."
+SPECIAL_SLOT_READY_ROOM: "Каюта капитана"
+SPECIAL_SLOT_READY_ROOM_DESC: "Командование военным кораблем - это тяжелое бремя, и даже самые способные капитаны могут почувствовать напряжение. Выделите для капитана судна личное пространство, где он может расслабиться, но при этом оставаться доступным в случае чрезвычайных ситуаций, это улучшит психическое здоровье капитана и повысит его способность управлять кораблем, когда придет время вступить в бой."
+SPECIAL_SLOT_CREW_LOUNGE: "Зона отдыха экипажа"
+SPECIAL_SLOT_CREW_LOUNGE_DESC: "Длительное пребывание на борту космических боевых кораблей может сказаться на экипаже корабля. Наличие специально отведенных мест для отдыха экипажа обеспечит экипажу место для снятия излишнего стресса, улучшения психического здоровья и, в конечном итоге, повышения боевой эффективности."
+SPECIAL_SLOT_FIRE_CONTROL: "Система наведения огня"
+SPECIAL_SLOT_FIRE_CONTROL_DESC: "Эта усовершенствованная система наведения позволяет кораблю быстрее и точнее получать целеуказания, нанося больший урон вражеским судам в бою."
+SPECIAL_SLOT_STRUCTURAL_INTEGRITY: "Поле структурной целостности"
+SPECIAL_SLOT_STRUCTURAL_INTEGRITY_DESC: "Эта передовая система силовых полей укрепляет структуру корпуса корабля изнутри, помогая судну дольше противостоять вражескому огню, прежде чем выйти из строя."
+SPECIAL_SLOT_AUXILIARY_SHIELDS: "Система вспомогательных щитов"
+SPECIAL_SLOT_AUXILIARY_SHIELDS_DESC: "Эта вторичная серия резервных генераторов щитов усиливает щиты корабля во время боя, делая их более устойчивыми к вражескому огню."
+SPECIAL_SLOT_QUANTUM_THRUSTERS: "Квантовые ускорители"
+SPECIAL_SLOT_QUANTUM_THRUSTERS_DESC: "Даже самые мощные флоты бесполезны, если они не в состоянии быть в нужном месте в нужное время. Хоть обслуживание квантовых ускорителей обходится дорого и приводит к повышенному износу корабля в целом, они обеспечивают значительное увеличение субсветовой скорости, позволяя нашим флотам быстрее реагировать на любые возникающие ситуации."
+SPECIAL_SLOT_DEFLECTOR_ARRAY: "Отклоняющие решетки"
+SPECIAL_SLOT_DEFLECTOR_ARRAY_DESC: "Эти отклоняющие решетки снижают нагрузку на генераторы щитов, позволяя щитам корабля быстрее восстанавливаться после боя, чтобы быть готовыми к следующему бою. В кампаниях, где в одной системе может происходить несколько сражений подряд, это может означать разницу между победой и поражением."
+SPECIAL_SLOT_KITCHEN_SINK: "Кухонная раковина"
+SPECIAL_SLOT_KITCHEN_SINK_DESC: "Чистая команда - счастливая команда. Счастливая команда может отвлечься от рутины. И нет, мы до сих пор не знаем, почему на этот отсек идёт столько энергии."
+SPECIAL_SLOT_STELLAR_CARTOGRAPHY: "Звездная картография"
+SPECIAL_SLOT_STELLAR_CARTOGRAPHY_DESC: "Эта большая система используется для картографирования окружающего пространства, позволяя компьютерам корабля рассчитывать и восстанавливаться после сверхсветовых прыжков с повышенной скоростью."
+SPECIAL_SLOT_NAVIGATIONAL_ARRAY: "Навигационная система"
+SPECIAL_SLOT_NAVIGATIONAL_ARRAY_DESC: "Эта усовершенствованная трехмерная навигационная система выполняет две функции: во-первых, усиливает способность оружия корабля отслеживать вражеские корабли в бою, а во-вторых, увеличивает дальность действия прыжковых приводов корабля, если таковые установлены."
+SPECIAL_SLOT_MARS_WEAPON_SYSTEM: "Орудийная система MARS"
+SPECIAL_SLOT_MARS_WEAPON_SYSTEM_DESC: "Эта передовая система оружия точечной обороны специально разработана для отслеживания крошечных, сильно уклоняющихся целей - ракет, торпед и ударных кораблей - и обеспечивает чрезвычайно точное наведение на цель на огромных скоростях, повышая скорострельность и потенциал повреждения корабельного оружия точечной обороны."
+SPECIAL_SLOT_STRIKE_CRAFT: "Командно-контрольная сеть авианосца"
+SPECIAL_SLOT_STRIKE_CRAFT_DESC: "Передовая сеть радаров и коммуникационных массивов, которые облегчают командование и управление большим количеством штурмовиков, повышая их эффективность."
+
+SPECIAL_SLOT_MARS_WEAPON_SYSTEM: "Орудийная система MARS"
+SPECIAL_SLOT_MARS_WEAPON_SYSTEM_DESC: "Эта передовая система оружия точечной обороны специально разработана для отслеживания крошечных, сильно уклоняющихся целей - ракет, торпед и ударных кораблей - и обеспечивает чрезвычайно точное наведение на цель на огромных скоростях, повышая скорострельность и потенциал повреждения корабельного оружия точечной обороны."
+SPECIAL_SLOT_STRIKE_CRAFT: "Командно-контрольная сеть авианосца"
+SPECIAL_SLOT_STRIKE_CRAFT_DESC: "Передовая сеть радаров и коммуникационных массивов, которые облегчают командование и управление большим количеством штурмовиков, повышая их эффективность."
+
+
+
+EXPLORATION_SLOT_ANOMALY_LAB: "Лаборатория изучения аномалий"
+EXPLORATION_SLOT_ANOMALY_LAB_DESC: "Эта лаборатория посвящена изучению аномалий, тех странных и удивительных вещей в галактике, которые, кажется, не подчиняются тем же правилам, что и все остальное. Каждая из них заслуживает полного, всестороннего анализа, но так много нужно открыть, а времени так мало. Оптимизировав лабораторию для изучения этих восхитительных странностей, мы можем гарантировать, что каждая аномалия получит заслуженное внимание, а также значительно ускорить время исследований."
+EXPLORATION_SLOT_SURVEY_LAB: "Обзорная лаборатория"
+EXPLORATION_SLOT_SURVEY_LAB_DESC: "Есть ещё так много планет и систем, которые ждут, умоляют, чтобы их обнаружили, и каждая из них может содержать ключ к новым открытиям. Нельзя терять время, и эта специализированная лаборатория позволит нам проводить исследования гораздо быстрее, а это значит, что мы сможем исследовать все больше и больше пространства за это же время. Больше исследований - больше открытий, больше приключений и больше знаний о Галактике."
+EXPLORATION_SLOT_ANALYSIS_LAB: "Продвинутая аналитическая лаборатория"
+EXPLORATION_SLOT_ANALYSIS_LAB_DESC: "Каждая аномалия, по своей природе, заставляет нас задавать вопросы, подвергать сомнению ранее принятые предположения. Нет ничего более ценного, чем это, когда речь идет о развитии науки. Мы не можем рисковать, упуская любые потенциальные аномалии и секреты, которые они хранят. Эта специализированная лаборатория гарантирует, что мы найдем все аномалии, которые может предложить галактика."
+EXPLORATION_SLOT_DEBRIS_LAB: "Лаборатория анализа обломков"
+EXPLORATION_SLOT_DEBRIS_LAB_DESC: "Эта лаборатория занимается исследованием и анализом обломков космических аппаратов, оставшихся после космических сражений. Космический мусор, как современный, так и древний, может стать ключом к разгадке несметных тайн Вселенной."
+EXPLORATION_SLOT_ARCH_LAB: "Продвинутая археологическая лаборатория"
+EXPLORATION_SLOT_ARCH_LAB_DESC: "Эта лаборатория посвящена изучению археологических раскопок. Эти места хранят невыразимые тайны, которые распаляют воображение, и они заслуживают специальной лаборатории, где все, что с ними связано, может быть проанализировано в полном объеме."
+EXPLORATION_SLOT_STELLAR_CARTOGRAPHY: "Звездная картография"
+EXPLORATION_SLOT_STELLAR_CARTOGRAPHY_DESC: "Эта большая система используется для картографирования окружающего пространства, позволяя компьютерам корабля рассчитывать и восстанавливаться после сверхсветовых прыжков с повышенной скоростью. Будучи гораздо более эффективными, чем модели, используемые на обычных боевых кораблях, эти модули звездной картографии в то же время гораздо более привередливы, и для их обслуживания требуется твердая рука опытного научного офицера."
+EXPLORATION_SLOT_QUANTUM_THRUSTERS: "Квантовые ускорители"
+EXPLORATION_SLOT_QUANTUM_THRUSTERS_DESC: "В условиях, когда предстоит исследовать так много, каждое мгновение, проведенное в пути между объектами исследования, - это мгновение, потраченное впустую. Квантовые двигатели предназначены для того, чтобы с огромной скоростью нести наш корабль через космос, постоянно устремляясь к следующей планете, следующей звезде, следующей великой тайне, которую еще предстоит разгадать". 
+EXPLORATION_SLOT_NAVIGATIONAL_ARRAY: "Навигационная система"
+EXPLORATION_SLOT_NAVIGATIONAL_ARRAY_DESC: "Эти передовые трехмерные навигационные системы специально разработаны для расширения диапазона наших сенсоров как можно дальше в космос, быстро обновляя и дополняя нашу карту галактики путем предварительного сканирования обширных пространств издалека."
+EXPLORATION_SLOT_PHYSICS_LAB: "Продвинутая физическая лаборатория"
+EXPLORATION_SLOT_PHYSICS_LAB_DESC: "§HПроизводит:§! 10 ед. физическисх исследований\nЭта передовая лаборатория занимается проведением передовых исследований в области физики - изучением секретов материи и энергии, компьютеров и манипулирования полями."
+EXPLORATION_SLOT_SOCIETY_LAB: "Продвинутая социологическая лаборатория"
+EXPLORATION_SLOT_SOCIETY_LAB_DESC: "§HПроизводит:§! 10 ед. социологических исследований\nЭта передовая лаборатория занимается проведением передовых исследований общества - изучением секретов социологии, биологии, философии и военной теории, наук о жизни и культуре."
+EXPLORATION_SLOT_ENGINEERING_LAB: "Продвинутая инженерная лаборатория"
+EXPLORATION_SLOT_ENGINEERING_LAB_DESC: "§HПроизводит:§! 10 ед. инженерных исследований\nЭта передовая лаборатория занимается проведением передовых инженерных исследований - изучением секретов материалов, промышленности, космических аппаратов, двигательных установок и робототехники."
+
+EXPLORATION_SLOT_MINING_FACILITY: "Предприятие по добыче астероидов"
+EXPLORATION_SLOT_MINING_FACILITY_DESC: "§HПроизводит:§! 7 минералов\n§HСодержание:§! 5 энергии\nЭта установка позволяет нам превратить старый исследовательский крейсер в передовую добывающую платформу, способную производить небольшое количество минералов каждый месяц."
+
+EXPLORATION_SLOT_SOLAR_ARRAY: "Массив солнечных батарей"
+EXPLORATION_SLOT_SOLAR_ARRAY_DESC: "§HПроизводит:§! 7 энергии\n§HСодержание:§! 5 минералов\nЭта установка позволяет нам переоборудовать старый исследовательский крейсер в большой массив солнечных батарей и аккумуляторную систему, способную производить небольшое количество энергии каждый месяц."
+
+EXPLORATION_SLOT_ALLOY_REFINERY: "Завод по производству сплавов"
+EXPLORATION_SLOT_ALLOY_REFINERY_DESC: "§HПроизводит:§! 7 сплавов\n§HСодержание:§! 3 минерала и 3 энергии\nЭтот объект позволяет нам превратить старый исследовательский крейсер в современный завод по переработке сплавов, способный производить небольшое количество сплавов каждый месяц."
+
+FRIGATE_CLOAK: "Продв. генератор маскировочного поля"
+FRIGATE_CLOAKING: "Продв. генератор маскировочного поля"
+BATTLECRUISER_CLOAK: "Усиленный генератор маскировочного поля"
+BATTLECRUISER_CLOAKING: "Усиленный генератор маскировочного поля"
+
+FIGHTERS_HANGAR_PD_1: "Базовое истребительное крыло (PD)"
+FIGHTERS_HANGAR_PD_1_DESC: "Базовый истребитель будет развернут для поражения ближайших врагов, когда материнский корабль вступит в бой. Будет держаться рядом со своим носителем для перехвата бомбардировщиков и ракет."
+FIGHTERS_HANGAR_PD_2: "Улучшенное истребительное крыло (PD)"
+FIGHTERS_HANGAR_PD_2_DESC: "Улучшенные истребители нацелены на небольшие вражеские корабли, а также бомбардировщики и штурмовики в ходе скоординированных маневров. Будет держаться рядом со своим носителем для перехвата бомбардировщиков и ракет."
+FIGHTERS_HANGAR_PD_3: "Продвинутое истребительное крыло (PD)"
+FIGHTERS_HANGAR_PD_3_DESC: "Передовое истребительное крыло способно наносить значительный ущерб небольшим вражеским кораблям и противостоять им в целом. Будет держаться рядом со своим носителем для перехвата бомбардировщиков и ракет."
+
+LARGE_FIGHTERS_HANGAR_PD_1: "Базовое истребительное крыло (PD)"
+LARGE_FIGHTERS_HANGAR_PD_2: "Улучшенное истребительное крыло (PD)"
+LARGE_FIGHTERS_HANGAR_PD_3: "Продвинутое истребительное крыло (PD)"
+
+NSC_REACTOR_BOOSTER_1: "Гравитонные ускорители"
+NSC_REACTOR_BOOSTER_1_DESC: "Реакторные ускорители, усиленные технологией гравитонной энергии"
+NSC_REACTOR_BOOSTER_2: "Naquadria-ускорители"
+NSC_REACTOR_BOOSTER_2_DESC: "Реакторные ускорители, усиленные технологией энергии кристаллов Naquadria"
+NSC_REACTOR_BOOSTER_3: "Сингулярные ускорители"
+NSC_REACTOR_BOOSTER_3_DESC: "Реакторные ускорители, усиленные технологией энергии квантовой сингулярности"
+
+CORVETTE_SENSOR: "Разведывательные датчики корвета"
+CORVETTE_SENSOR_DESC: "Этот специальный комплекс датчиков позволит корветам разведывать системы на предмет угроз, прежде чем отправлять туда ценные научные команды."
+
+NSC_BOMBARDMENT_1: "Улучшенная бомбардировка"
+NSC_BOMBARDMENT_1_DESC: "Теперь мы можем оснастить наши военные корабли улучшенным пакетом вооружений, который увеличит урон, наносимый при бомбардировке планет."
+NSC_BOMBARDMENT_2: "Усиленная бомбардировка"
+NSC_BOMBARDMENT_2_DESC: "Теперь мы можем оснастить наши военные корабли усиленным пакетом вооружений, который увеличит урон, наносимый при бомбардировке планет."
+NSC_BOMBARDMENT_3: "Продвинутая бомбардировка"
+NSC_BOMBARDMENT_3_DESC: "Теперь мы можем оснастить наши военные корабли продвинутым пакетом вооружений, который увеличит урон, наносимый при бомбардировке планет."
+
+NSC_NANITE_FIELD: "Распылитель нанитов"
+nsc_nanite_aura: "Распылитель нанитов"
+nsc_starbase_nanite_aura: "Распылитель нанитов"
+nsc_starbase_nanite_aura_DESC: "Усовершенствованные наниты, которые разъедают броню вражеских кораблей, разрушая молекулярные связи."
+sm_nsc_nanite_field: "Облако распыленных нанитов"
+sm_nsc_nanite_field_desc: "Этот модуль создает, размещает и развертывает передовые наниты, которые разъедают броню вражеских кораблей, разрушая молекулярные связи."
+
+FLAGSHIP_JUMP_DRIVE: "Прыжковый двигатель флагмана"
+FLAGSHIP_JUMP_DRIVE_DESC: "Прыжковый двигатель флагмана пробивает в самой ткани реальности дыры размером с корабль, позволяя практически мгновенно перемещаться между системами. Природа пространства, через которое проходит корабль во время этого путешествия, до сих пор плохо изучена."
+
+HEADQUARTERS_JUMP_DRIVE: "Прыжковый двигатель Штаб-квартиры"
+HEADQUARTERS_JUMP_DRIVE_DESC: "Прыжковый двигатель Штаб-квартиры пробивает дыры размером с корабль в самой ткани реальности, позволяя практически мгновенно перемещаться между системами. Из-за размера и массы станции этот привод имеет чрезвычайно длительное время перезарядки и может использоваться лишь в редких случаях."
+
+EXPLORATION_HYPER_DRIVE: "Гипердвигатель \"Пионера\""
+EXPLORATION_HYPER_DRIVE_DESC: "Корабли, оснащенные гипердвигателями, быстро перемещаются между границами звездных систем по межзвездным гиперкоридорам."
+
+# NSC_AMMO_CRYSTAL_1: "Focusing Crystal"
+# NSC_AMMO_CRYSTAL_1_DESC: "A special crystal designed to focus laser beams to enhance their destructive power. Because of its extensive power use, other weapon types will suffer a drop in their rate of fire."
+
+# NSC_AMMO_WARHEAD_1: "Advanced Warhead"
+# NSC_AMMO_WARHEAD_1_DESC: ""
+
+##################################################################################################################################################################################################################
+### REACTORS ###
+################
+
+### FISSION REACTORS ###
+STRIKECRUISER_FISSION_REACTOR: "$FISSION_REACTOR$"
+BATTLECRUISER_FISSION_REACTOR: "$FISSION_REACTOR$"
+CARRIER_FISSION_REACTOR: "$FISSION_REACTOR$"
+DREADNOUGHT_FISSION_REACTOR: "$FISSION_REACTOR$"
+
+### FUSION REACTORS ###
+STRIKECRUISER_FUSION_REACTOR: "$FUSION_REACTOR$"
+BATTLECRUISER_FUSION_REACTOR: "$FUSION_REACTOR$"
+CARRIER_FUSION_REACTOR: "$FUSION_REACTOR$"
+DREADNOUGHT_FUSION_REACTOR: "$FUSION_REACTOR$"
+
+### COLD FUSION REACTORS ###
+STRIKECRUISER_COLD_FUSION_REACTOR: "$COLD_FUSION_REACTOR$"
+BATTLECRUISER_COLD_FUSION_REACTOR: "$COLD_FUSION_REACTOR$"
+CARRIER_COLD_FUSION_REACTOR: "$COLD_FUSION_REACTOR$"
+DREADNOUGHT_COLD_FUSION_REACTOR: "$COLD_FUSION_REACTOR$"
+
+### ANTIMATTER REACTORS ###
+STRIKECRUISER_ANTIMATTER_REACTOR: "$ANTIMATTER_REACTOR$"
+BATTLECRUISER_ANTIMATTER_REACTOR: "$ANTIMATTER_REACTOR$"
+CARRIER_ANTIMATTER_REACTOR: "$ANTIMATTER_REACTOR$"
+DREADNOUGHT_ANTIMATTER_REACTOR: "$ANTIMATTER_REACTOR$"
+
+### ZERO POINT REACTOR ###
+STRIKECRUISER_ZERO_POINT_REACTOR: "$ZERO_POINT_REACTOR$"
+BATTLECRUISER_ZERO_POINT_REACTOR: "$ZERO_POINT_REACTOR$"
+CARRIER_ZERO_POINT_REACTOR: "$ZERO_POINT_REACTOR$"
+DREADNOUGHT_ZERO_POINT_REACTOR: "$ZERO_POINT_REACTOR$"
+
+### DARK MATTER REACTOR ###
+STRIKECRUISER_DARK_MATTER_REACTOR: "$DARK_MATTER_REACTOR$"
+BATTLECRUISER_DARK_MATTER_REACTOR: "$DARK_MATTER_REACTOR$"
+CARRIER_DARK_MATTER_REACTOR: "$DARK_MATTER_REACTOR$"
+DREADNOUGHT_DARK_MATTER_REACTOR: "$DARK_MATTER_REACTOR$"
+
+### GRAVITON REACTORS ###
+CORVETTE_GRAVITON_REACTOR: "Гравитонный реактор"
+DESTROYER_GRAVITON_REACTOR: "Гравитонный реактор"
+CRUISER_GRAVITON_REACTOR: "Гравитонный реактор"
+STRIKECRUISER_GRAVITON_REACTOR: "Гравитонный реактор"
+BATTLECRUISER_GRAVITON_REACTOR: "Гравитонный реактор"
+BATTLESHIP_GRAVITON_REACTOR: "Гравитонный реактор"
+DREADNOUGHT_GRAVITON_REACTOR: "Гравитонный реактор"
+TITAN_GRAVITON_REACTOR: "Гравитонный реактор"
+JUGGERNAUT_GRAVITON_REACTOR: "Гравитонный реактор"
+PLATFORM_GRAVITON_REACTOR: "Гравитонный реактор"
+STATION_GRAVITON_REACTOR: "Гравитонный реактор"
+FORTRESS_GRAVITON_REACTOR: "Гравитонный реактор"
+
+GRAVITON_REACTOR: "Гравитонный реактор"
+GRAVITON_REACTOR_DESC: "Добавление гравитонов и частиц на их основе для усиления реакции антиматерии значительно увеличивает производство энергии в наших реакторах."
+
+### NAQUADRIA REACTORS ###
+CORVETTE_NAQUADRIA_REACTOR: "Naquadria-реактор"
+DESTROYER_NAQUADRIA_REACTOR: "Naquadria-реактор"
+CRUISER_NAQUADRIA_REACTOR: "Naquadria-реактор"
+STRIKECRUISER_NAQUADRIA_REACTOR: "Naquadria-реактор"
+BATTLECRUISER_NAQUADRIA_REACTOR: "Naquadria-реактор"
+BATTLESHIP_NAQUADRIA_REACTOR: "Naquadria-реактор"
+DREADNOUGHT_NAQUADRIA_REACTOR: "Naquadria-реактор"
+TITAN_NAQUADRIA_REACTOR: "Naquadria-реактор"
+JUGGERNAUT_NAQUADRIA_REACTOR: "Naquadria-реактор"
+PLATFORM_NAQUADRIA_REACTOR: "Naquadria-реактор"
+STATION_NAQUADRIA_REACTOR: "Naquadria-реактор"
+FORTRESS_NAQUADRIA_REACTOR: "Naquadria-реактор"
+
+NAQUADRIA_REACTOR: "Naquadria-реактор"
+NAQUADRIA_REACTOR_DESC: "Специализированный реактор, работающий от использования древних и очень редких кристаллов."
+
+### SINGULARITY REACTORS ###
+CORVETTE_SINGULARITY_REACTOR: "Реактор сингулярности"
+DESTROYER_SINGULARITY_REACTOR: "Реактор сингулярности"
+CRUISER_SINGULARITY_REACTOR: "Реактор сингулярности"
+STRIKECRUISER_SINGULARITY_REACTOR: "Реактор сингулярности"
+BATTLECRUISER_SINGULARITY_REACTOR: "Реактор сингулярности"
+BATTLESHIP_SINGULARITY_REACTOR: "Реактор сингулярности"
+DREADNOUGHT_SINGULARITY_REACTOR: "Реактор сингулярности"
+TITAN_SINGULARITY_REACTOR: "Реактор сингулярности"
+JUGGERNAUT_SINGULARITY_REACTOR: "Реактор сингулярности"
+PLATFORM_SINGULARITY_REACTOR: "Реактор сингулярности"
+STATION_SINGULARITY_REACTOR: "Реактор сингулярности"
+FORTRESS_SINGULARITY_REACTOR: "Реактор сингулярности"
+
+SINGULARITY_REACTOR: "Реактор сингулярности"
+SINGULARITY_REACTOR_DESC: "Реактор, питающийся от квантовой сингулярности."
+
+### MULTI DIMENSIONAL REACTORS ###
+CORVETTE_MULTIDIMENSIONAL_REACTOR: "Межпространственный реактор"
+DESTROYER_MULTIDIMENSIONAL_REACTOR: "Межпространственный реактор"
+CRUISER_MULTIDIMENSIONAL_REACTOR: "Межпространственный реактор"
+STRIKECRUISER_MULTIDIMENSIONAL_REACTOR: "Межпространственный реактор"
+BATTLECRUISER_MULTIDIMENSIONAL_REACTOR: "Межпространственный реактор"
+BATTLESHIP_MULTIDIMENSIONAL_REACTOR: "Межпространственный реактор"
+DREADNOUGHT_MULTIDIMENSIONAL_REACTOR: "Межпространственный реактор"
+TITAN_MULTIDIMENSIONAL_REACTOR: "Межпространственный реактор"
+JUGGERNAUT_MULTIDIMENSIONAL_REACTOR: "Межпространственный реактор"
+PLATFORM_MULTIDIMENSIONAL_REACTOR: "Межпространственный реактор"
+STATION_MULTIDIMENSIONAL_REACTOR: "Межпространственный реактор"
+FORTRESS_MULTIDIMENSIONAL_REACTOR: "Межпространственный реактор"
+
+MULTIDIMENSIONAL_REACTOR: "Межпространственный реактор"
+MULTIDIMENSIONAL_REACTOR_DESC: "Создание моста материи между различными измерениями и альтернативными реальностями позволяет обеспечить постоянный, хотя и несколько ограниченный, поток вакуумной энергии для питания нашего следующего поколения реакторов."
+
+### OPTIMIZED DARK MATTER REACTORS ###
+CORVETTE_OPTIMIZED_ENIGMATIC_REACTOR: "Улучшенный реактор темной материи"
+DESTROYER_OPTIMIZED_ENIGMATIC_REACTOR: "Улучшенный реактор темной материи"
+CRUISER_OPTIMIZED_ENIGMATIC_REACTOR: "Улучшенный реактор темной материи"
+STRIKECRUISER_OPTIMIZED_ENIGMATIC_REACTOR: "Улучшенный реактор темной материи"
+BATTLECRUISER_OPTIMIZED_ENIGMATIC_REACTOR: "Улучшенный реактор темной материи"
+BATTLESHIP_OPTIMIZED_ENIGMATIC_REACTOR: "Улучшенный реактор темной материи"
+DREADNOUGHT_OPTIMIZED_ENIGMATIC_REACTOR: "Улучшенный реактор темной материи"
+TITAN_OPTIMIZED_ENIGMATIC_REACTOR: "Улучшенный реактор темной материи"
+JUGGERNAUT_OPTIMIZED_ENIGMATIC_REACTOR: "Улучшенный реактор темной материи"
+PLATFORM_OPTIMIZED_ENIGMATIC_REACTOR: "Улучшенный реактор темной материи"
+STATION_OPTIMIZED_ENIGMATIC_REACTOR: "Улучшенный реактор темной материи"
+FORTRESS_OPTIMIZED_ENIGMATIC_REACTOR: "Улучшенный реактор темной материи"
+
+OPTIMIZED_ENIGMATIC_REACTOR: "Улучшенный реактор темной материи"
+OPTIMIZED_ENIGMATIC_REACTOR_DESC: "Используя знания, полученные из Загадочной крепости, а также наши собственные открытия, мы теперь можем брать энергию нулевой точки непосредственно из подпространства нашей собственной вселенной без риска создания нестабильных экзотических частиц, обеспечивая непрерывный поток энергии, ограниченный только нашей способностью его контролировать."
+ 
+### SPECIAL REACTORS ###
+FLAGSHIP_BLACK_HOLE_REACTOR_1: "Реактор черной дыры I"
+FLAGSHIP_BLACK_HOLE_REACTOR_1_DESC: "Реактор, использующий колоссальную энергию искусственной черной дыры."
+FLAGSHIP_BLACK_HOLE_REACTOR_2: "Реактор черной дыры II"
+FLAGSHIP_BLACK_HOLE_REACTOR_2_DESC: "Реактор, использующий колоссальную энергию искусственной черной дыры."
+FLAGSHIP_BLACK_HOLE_REACTOR_3: "Реактор черной дыры III"
+FLAGSHIP_BLACK_HOLE_REACTOR_3_DESC: "Реактор, использующий колоссальную энергию искусственной черной дыры."
+CITADEL_DARK_MATTER_REACTOR: "Реактор тёмной материи"
+STARBASE_PRIMARY_REACTOR: "Основной реактор звёздной базы"
+
+### DEFENSE STATION SECONDARY REACTORS ###
+STATION_FISSION_REACTOR: "Ядерный реактор"
+STATION_FUSION_REACTOR: "Термоядерный реактор"
+STATION_COLD_FUSION_REACTOR: "Реактор холодного синтеза"
+STATION_ANTIMATTER_REACTOR: "Реактор антиматерии"
+STATION_ZERO_POINT_REACTOR: "Реактор нулевой точки"
+STATION_DARK_MATTER_REACTOR: "Реактор тёмной материи"
+
+### DEFENSE FORTRESS SECONDARY REACTORS ###
+FORTRESS_FISSION_REACTOR: "Ядерный реактор"
+FORTRESS_FUSION_REACTOR: "Термоядерный реактор"
+FORTRESS_COLD_FUSION_REACTOR: "Реактор холодного синтеза"
+FORTRESS_ANTIMATTER_REACTOR: "Реактор антиматерии"
+FORTRESS_ZERO_POINT_REACTOR: "Реактор нулевой точки"
+FORTRESS_DARK_MATTER_REACTOR: "Реактор тёмной материи"
+
+
+##################################################################################################################################################################################################################
+### THRUSTERS ###
+#################
+
+### LEVEL 1 ###
+STRIKECRUISER_SHIP_THRUSTER_1: "$SHIP_THRUSTER_1$"
+STRIKECRUISE_SHIP_THRUSTER_1_DESC: "$SHIP_THRUSTER_1_DESC$"
+BATTLECRUISER_SHIP_THRUSTER_1: "$SHIP_THRUSTER_1$"
+BATTLECRUISER_SHIP_THRUSTER_1_DESC: "$SHIP_THRUSTER_1_DESC$"
+CARRIER_SHIP_THRUSTER_1: "$SHIP_THRUSTER_1$"
+CARRIER_SHIP_THRUSTER_1_DESC: "$SHIP_THRUSTER_1_DESC$"
+DREADNOUGHT_SHIP_THRUSTER_1: "$SHIP_THRUSTER_1$"
+DREADNOUGHT_SHIP_THRUSTER_1_DESC: "$SHIP_THRUSTER_1_DESC$"
+FLAGSHIP_SHIP_THRUSTER_1: "$SHIP_THRUSTER_1$"
+FLAGSHIP_SHIP_THRUSTER_1_DESC: "$SHIP_THRUSTER_1_DESC$"
+
+### LEVEL 2 ###
+STRIKECRUISER_SHIP_THRUSTER_2: "$SHIP_THRUSTER_2$"
+STRIKECRUISERSHIP_THRUSTER_2_DESC: "$SHIP_THRUSTER_2_DESC$"
+BATTLECRUISER_SHIP_THRUSTER_2: "$SHIP_THRUSTER_2$"
+BATTLECRUISER_SHIP_THRUSTER_2_DESC: "$SHIP_THRUSTER_2_DESC$"
+CARRIER_SHIP_THRUSTER_2: "$SHIP_THRUSTER_2$"
+CARRIER_SHIP_THRUSTER_2_DESC: "$SHIP_THRUSTER_2_DESC$"
+DREADNOUGHT_SHIP_THRUSTER_2: "$SHIP_THRUSTER_2$"
+DREADNOUGHT_SHIP_THRUSTER_2_DESC: "$SHIP_THRUSTER_2_DESC$"
+FLAGSHIP_SHIP_THRUSTER_2: "$SHIP_THRUSTER_2$"
+FLAGSHIP_SHIP_THRUSTER_2_DESC: "$SHIP_THRUSTER_2_DESC$"
+
+### LEVEL 3 ###
+STRIKECRUISER_SHIP_THRUSTER_3: "$SHIP_THRUSTER_3$"
+STRIKECRUISER_SHIP_THRUSTER_3_DESC: "$SHIP_THRUSTER_3_DESC$"
+BATTLECRUISER_SHIP_THRUSTER_3: "$SHIP_THRUSTER_3$"
+BATTLECRUISER_SHIP_THRUSTER_3_DESC: "$SHIP_THRUSTER_3_DESC$"
+CARRIER_SHIP_THRUSTER_3: "$SHIP_THRUSTER_3$"
+CARRIER_SHIP_THRUSTER_3_DESC: "$SHIP_THRUSTER_3_DESC$"
+DREADNOUGHT_SHIP_THRUSTER_3: "$SHIP_THRUSTER_3$"
+DREADNOUGHT_SHIP_THRUSTER_3_DESC: "$SHIP_THRUSTER_3_DESC$"
+FLAGSHIP_SHIP_THRUSTER_3: "$SHIP_THRUSTER_3$"
+FLAGSHIP_SHIP_THRUSTER_3_DESC: "$SHIP_THRUSTER_3_DESC$"
+
+### LEVEL 4 ###
+STRIKECRUISER_SHIP_THRUSTER_4: "$SHIP_THRUSTER_4$"
+STRIKECRUISER_SHIP_THRUSTER_4_DESC: "$SHIP_THRUSTER_4_DESC$"
+BATTLECRUISER_SHIP_THRUSTER_4: "$SHIP_THRUSTER_4$"
+BATTLECRUISER_SHIP_THRUSTER_4_DESC: "$SHIP_THRUSTER_4_DESC$"
+CARRIER_SHIP_THRUSTER_4: "$SHIP_THRUSTER_4$"
+CARRIER_SHIP_THRUSTER_4_DESC: "$SHIP_THRUSTER_4_DESC$"
+DREADNOUGHT_SHIP_THRUSTER_4: "$SHIP_THRUSTER_4$"
+DREADNOUGHT_SHIP_THRUSTER_4_DESC: "$SHIP_THRUSTER_4_DESC$"
+FLAGSHIP_SHIP_THRUSTER_4: "$SHIP_THRUSTER_4$"
+FLAGSHIP_SHIP_THRUSTER_4_DESC: "$SHIP_THRUSTER_4_DESC$"
+
+### LEVEL 5 ###
+STRIKECRUISER_SHIP_THRUSTER_5: "$SHIP_THRUSTER_5$"
+STRIKECRUISER_SHIP_THRUSTER_5_DESC: "$SHIP_THRUSTER_5_DESC$"
+BATTLECRUISER_SHIP_THRUSTER_5: "$SHIP_THRUSTER_5$"
+BATTLECRUISER_SHIP_THRUSTER_5_DESC: "$SHIP_THRUSTER_5_DESC$"
+CARRIER_SHIP_THRUSTER_5: "$SHIP_THRUSTER_5$"
+CARRIER_SHIP_THRUSTER_5_DESC: "$SHIP_THRUSTER_5_DESC$"
+DREADNOUGHT_SHIP_THRUSTER_5: "$SHIP_THRUSTER_5$"
+DREADNOUGHT_SHIP_THRUSTER_5_DESC: "$SHIP_THRUSTER_5_DESC$"
+FLAGSHIP_SHIP_THRUSTER_5: "$SHIP_THRUSTER_5$"
+FLAGSHIP_SHIP_THRUSTER_5_DESC: "$SHIP_THRUSTER_5_DESC$"
+
+
+##################################################################################################################################################################################################################
+### WEAPONS ###
+###############
+
+PERDITION_BEAM_FLAGSHIP: "Посланник Справедливости"
+PERDITION_BEAM_FLAGSHIP_DESC: "Самый большой лазер в мире, для самого большого корабля в мире, чтобы компенсировать кои-чьи комплексы."
+
+PERDITION_BEAM_STARBASE: "Атомно-фазовый дезинтегратор"
+PERDITION_BEAM_STARBASE_DESC: "ДаккаДаккаДаккаДакка."
+
+XL_BEAM_STARBASE: "Поляризованный электронный модулятор"
+XL_BEAM_STARBASE_DESC: "Вдвое больше, в два раза меньше."
+
+BASIC_XL_BEAM: "Ранний прототип Копья"
+BASIC_XL_BEAM_DESC: "Базовый прототип, созданный на заре развития копьевого оружия. Он слаб по сравнению со своими преемниками, но не требует стратегических ресурсов для функционирования."
+
+BASIC_T_BEAM: "Прототип Луча Погибели"
+BASIC_T_BEAM_DESC: "Самый ранний рабочий образец титанического оружия, он не обладает такой разрушительной силой, как настоящий луч погибели. Тем не менее, для его функционирования не требуется никаких стратегических ресурсов."
+
+TOMAHAWK_CRUISE_MISSILE: "Усоверш. крылатая ракета 'Томагавк'"
+TOMAHAWK_CRUISE_MISSILE_DESC: "Чрезвычайно дорогая противокорабельная ракета с очень большим радиусом действия и высоким уроном. Очень полезна для оборонительных станций или дальнобойных артиллерийских кораблей, предназначена против капитальных кораблей."
+
+NSC_PD_MISSILE: "Усоверш. ракеты 'Харрингтон'"
+NSC_PD_MISSILE_DESC: "Усовершенствованный комплекс ракет ПВО, способный поражать быстрые и маневренные цели."
+
+FRIGATE_TORPEDO_1: "Торпеда 'Гарпун'"
+FRIGATE_TORPEDO_1_DESC: "Специализированная торпеда, предназначенная для установки в небольшие пусковые установки кораблей класса 'фрегат' и предназначенная для нанесения быстрых скрытных ударов по территории противника."
+
+BATTLECRUISER_TORPEDO_1: "Торпеда 'Минитмен'"
+BATTLECRUISER_TORPEDO_1_DESC: "Названная так за свою способность разгоняться быстрее, чем большинство других торпед, 'Минитмен' представляет собой специальный вариант, разработанный для крейсеров и предназначенный для нанесения сокрушительных ударов по более крупным капитальным кораблям противника."
+
+BATTLESHIP_SNIPER_GUN_1: "Электромагнитная пушка"
+BATTLESHIP_SNIPER_GUN_1_DESC: "Эти специализированные высокоскоростные турели предназначены для борьбы с проворными корветами. Они обладают высокой точностью на дальних дистанциях, но с трудом справляются с более толстыми корпусами больших кораблей."
+
+BATTLESHIP_SNIPER_GUN_2: "Атомно-фотонная пушка"
+BATTLESHIP_SNIPER_GUN_2_DESC: "Эти специализированные высокоскоростные турели предназначены для борьбы с проворными корветами. Они обладают высокой точностью на дальних дистанциях, но с трудом справляются с более толстыми корпусами больших кораблей."
+
+NSC_BB_SNIPER: "Электромагнитная пушка"
+NSC_BB_SNIPER_DESC: "Эти специализированные высокоскоростные турели предназначены для борьбы с проворными корветами. Они обладают высокой точностью на дальних дистанциях, но с трудом справляются с более толстыми корпусами больших кораблей."
+
+NSC_BB_SNIPER_2: "Атомно-фотонная пушка"
+NSC_BB_SNIPER_2_DESC: "Эти специализированные высокоскоростные турели предназначены для борьбы с проворными корветами. Они обладают высокой точностью на дальних дистанциях, но с трудом справляются с более толстыми корпусами больших кораблей."
+
+##################################################################################################################################################################################################################
+### TAGS ###
+###############
+spitfire: "Спитфайр"
+spitfire_Desc: "Корабли с конфигурацией 'Спитфайр' предназначены для борьбы с вражескими щитами."
+heavy_carrier: "Тяжелый авианосец"
+heavy_carrier_desc: "Конфигурация Тяжелого авианосца"
+super_carrier: "Суперавианосец"
+super_carrier_desc: "Конфигурация Суперавианосца"
+interdictor: "Перехватчик"
+interdictor_desc: "Конфигурация перехватчика"
+##################################################################################################################################################################################################################
+### CLOAKS ###
+###############
+
+
+ STRIKECRUISER_CLOAKING_3: "Передовой генератор маскировочного поля"
+ STRIKECRUISER_CLOAKING_3_DESC: "$CLOAKING_3_DESC$"
+ STRIKECRUISER_CLOAKING_DARK_MATTER: "ТМ-генератор маскировочного поля"
+ STRIKECRUISER_CLOAKING_DARK_MATTER_DESC: "$CLOAKING_DARK_MATTER_DESC$"
+ STRIKECRUISER_CLOAKING_PSI: "Пси-генератор маскировочного поля"
+ STRIKECRUISER_CLOAKING_PSI_DESC: "$CLOAKING_PSI_DESC$"
+ 
+ STRIKECRUISER_CLOAKING_3_TOOLTIP: "В сост. маскировки:\n\nУровень щита: §R-100%§!\nСубсветовая скорость: §G+10%§!"
+ STRIKECRUISER_CLOAKING_DARK_MATTER_TOOLTIP: "В сост. маскировки:\n\nУровень щита: §R-50%§!\nСубсветовая скорость: §G+15%§!"
+ STRIKECRUISER_CLOAKING_PSI_TOOLTIP: "В сост. маскировки:\n\nСубсветовая скорость: §G+20%§!"
+ 
+ 
+ CARRIER_CLOAKING_3: "Передовой генератор маскировочного поля"
+ CARRIER_CLOAKING_3_DESC: "$CLOAKING_3_DESC$"
+ CARRIER_CLOAKING_DARK_MATTER: "ТМ-генератор маскировочного поля"
+ CARRIER_CLOAKING_DARK_MATTER_DESC: "$CLOAKING_DARK_MATTER_DESC$"
+ CARRIER_CLOAKING_PSI: "Пси-генератор маскировочного поля"
+ CARRIER_CLOAKING_PSI_DESC: "$CLOAKING_PSI_DESC$"
+ 
+ CARRIER_CLOAKING_3_TOOLTIP: "В сост. маскировки:\n\nУровень щита: §R-100%§!\nСубсветовая скорость: §R-50%§!\nУрон штурмовиков: §R-50%§!\nТемп стрельбы штурмовиков: §R-50%§!\nСкорость штурмовиков: §R-50%§!"
+ CARRIER_CLOAKING_DARK_MATTER_TOOLTIP: "В сост. маскировки:\n\nУровень щита: §R-80%§!\nСубсветовая скорость: §R-40%§!\nУрон штурмовиков: §R-35%§!\nТемп стрельбы штурмовиков: §R-35%§!\nСкорость штурмовиков: §R-35%§!"
+ CARRIER_CLOAKING_PSI_TOOLTIP: "В сост. маскировки:\n\nУровень щита: §R-60%§!\nСубсветовая скорость: §R-30%§!\nУрон штурмовиков: §R-20%§!\nТемп стрельбы штурмовиков: §R-20%§!\nСкорость штурмовиков: §R-20%§!"
+ 
+ 
+ EXPLORATION_CLOAKING_3: "Передовой генератор маскировочного поля"
+ EXPLORATION_CLOAKING_3_DESC: "$CLOAKING_3_DESC$"
+ EXPLORATION_CLOAKING_DARK_MATTER: "ТМ-генератор маскировочного поля"
+ EXPLORATION_CLOAKING_DARK_MATTER_DESC: "$CLOAKING_DARK_MATTER_DESC$"
+ EXPLORATION_CLOAKING_PSI: "Пси-генератор маскировочного поля"
+ EXPLORATION_CLOAKING_PSI_DESC: "$CLOAKING_PSI_DESC$"
+ 
+ EXPLORATION_CLOAKING_3_TOOLTIP: "В сост. маскировки:\n\nУровень щита: §R-50%§!\nСубсветовая скорость: §G+10%§!\nРадиус сенсоров: §G+1§!\nЗаметность: §G1§!"
+ EXPLORATION_CLOAKING_DARK_MATTER_TOOLTIP: "В сост. маскировки:\n\nУровень щита: §R-25%§!\nСубсветовая скорость: §G+20%§!\nРадиус сенсоров: §G+2§!\nЗаметность: §G2§!"
+ EXPLORATION_CLOAKING_PSI_TOOLTIP: "В сост. маскировки:\n\nСубсветовая скорость: §G+30%§!\nРадиус сенсоров: §G+3§!\nЗаметность: §G3§!"
+ 
+ 
+ FLAGSHIP_CLOAKING_3: "Спецгенератор маскировочного поля"
+ FLAGSHIP_CLOAKING_3_DESC: "$CLOAKING_3_DESC$"
+ FLAGSHIP_CLOAKING_3_TOOLTIP: "В сост. маскировки:\n\nУровень щита: §R-75%§!\nПерезарядка прыжкового двигателя: §G-50%§!\nСубсветовая скорость: §G+50%§!\nРадиус сенсоров: §G+3§!\nЗаметность: §G5§!"
+ BATTLECRUISER_CLOAKING_DESC: "Большое устройство маскировочного поля для боевого крейсера."

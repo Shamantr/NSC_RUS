@@ -1,0 +1,402 @@
+﻿l_russian:
+
+
+#############################################
+############ HULL SIZES #####################
+#############################################
+
+STRIKECRUISER: "Тяжелый крейсер"
+BATTLECRUISER: "Линейный крейсер"
+CARRIER: "Авианосец"
+DREADNOUGHT: "Дредноут"
+FLAGSHIP: "Флагман"
+SUPPORTSHIP: "Корабль сопровождения"
+EXPLORATIONSHIP: "\"Пионер\""
+
+StrikeCruiser: "Тяжелый крейсер"
+StrikeCruiser_plural: "Тяжелых крейсеров"
+Battlecruiser: "Линейный крейсер"
+Battlecruiser_plural: "Линейных крейсеров" 
+Carrier: "Авианосец"
+Carrier_plural: "Авианосцев"
+Dreadnought: "Дредноут"
+Dreadnought_plural: "Дредноутов"
+Flagship: "Флагман"
+Flagship_plural: "Флагманов"
+supportship: "Корабль сопровождения"
+supportship_plural: "Кораблей сопровождения"
+explorationship: "\"Пионер\""
+explorationship_plural: "\"Пионеры\""
+
+starbase_stronghold: "Великая цитадель"
+starbase_stronghold_plural: "Великих цитаделей"
+
+starbase_headquarters: "Звездный оплот"
+starbase_headquarters_plural: "Звездных оплотов"
+
+
+
+
+###################################################
+############ SECTION NAMES ########################
+###################################################
+
+#-------------------------------------------------------------------#
+### CORVETTE_MID_S2PD1: "Picket Core" (In Localisation Replace Folder) ###
+### CORVETTE_MID_S3: "Interceptor Core" (In Localisation Replace Folder) ###
+### CORVETTE_MID_PD3: "Pinpoint Core" (In Localisation Replace Folder) ###
+#-------------------------------------------------------------------#
+### CRISIS_CORVETTE_MID_S3: "Interceptor Core" (In Localisation Replace Folder) ###
+CRISIS_CORVETTE_MID_S2PD1: "Заградительные орудия"
+CRISIS_CORVETTE_MID_PD3: "ПВО"
+#-------------------------------------------------------------------#
+FRIGATE_BOW_M1S2: "Носовые орудия"
+FRIGATE_BOW_G1S2: "Носовые торпеды"
+FRIGATE_BOW_G1S1P1: "Носовые смеш. орудия A"
+FRIGATE_BOW_M1S1P1: "Носовые смеш. орудия B"
+FRIGATE_BOW_S3: "Носовые пушки"
+FRIGATE_BOW_S2P1: "Носовое заграждение"
+FRIGATE_BOW_P4: "Нос корабля сопровождения"
+
+FRIGATE_STERN_S2: "Кормовые пушки"
+FRIGATE_STERN_P2: "Кормовое ПВО"
+FRIGATE_STERN_S1P1: "Кормовое заграждение"
+FRIGATE_STERN_G1: "Кормовые торпеды"
+FRIGATE_STERN_M1: "Кормовая батарея"
+FRIGATE_STERN_P4: "Корма корабля сопровождения"
+#-------------------------------------------------------------------#
+### DESTROYER_BOW_L1: "Artillery Bow" (In Localisation Replace Folder) ###
+DESTROYER_BOW_M2S2: "Носовые орудия"
+DESTROYER_BOW_G1S3: "Носовые торпеды"
+DESTROYER_BOW_S5: "Носовые пушки"
+DESTROYER_BOW_S3P2: "Носовое заграждение"
+DESTROYER_BOW_LC: "Нос лёгкого авианосца"
+
+DESTROYER_STERN_S5: "Кормовые пушки"
+DESTROYER_STERN_S3P2: "Кормовое заграждение"
+DESTROYER_STERN_M2: "Кормовая батарея"
+DESTROYER_STERN_LC: "Корма лёгкого авианосца"
+#-------------------------------------------------------------------#
+CRISIS_DESTROYER_M2S2: "Орудия"
+#-------------------------------------------------------------------#
+CRISIS_CRUISER_SECTION_B: "Торпеды"
+#-------------------------------------------------------------------#
+OFFSPRING_DESTROYER_BOW_M1S2: "Носовые орудия"
+OFFSPRING_DESTROYER_BOW_S3: "Носовое заграждение"
+OFFSPRING_DESTROYER_BOW_S4: "Носовые пушки"
+OFFSPRING_DESTROYER_BOW_G2: "Носовые ракеты"
+OFFSPRING_DESTROYER_BOW_M2P4: "Носовое ПВО"
+
+OFFSPRING_DESTROYER_STERN_S2: "Кормовые пушки"
+OFFSPRING_DESTROYER_STERN_M1: "Кормовые орудия"
+OFFSPRING_DESTROYER_STERN_G1: "Кормовые ракеты"
+OFFSPRING_DESTROYER_STERN_P4: "Кормовое ПВО"
+#-------------------------------------------------------------------#
+CRUISER_BOW_L3: "Носовая артиллерия"
+CRUISER_BOW_M4S4: "Носовые орудия"
+CRUISER_BOW_M2S3P3: "Носовые смеш. орудия"
+CRUISER_BOW_M6: "Носовая батарея"
+CRUISER_BOW_STRIKE_A: "Нос тяжёлого крейсера тип A"
+CRUISER_BOW_STRIKE_B: "Нос тяжёлого крейсера тип B"
+CRUISER_BOW_STRIKE_C: "Нос тяжёлого крейсера тип C"
+
+CRUISER_MID_M2L2: "Палубная артиллерия"
+CRUISER_MID_M5P2: "Палубные смеш. орудия"
+CRUISER_MID_M5S3: "Палубные орудия"
+CRUISER_MID_G4P3: "Палубные торпеды"
+CRUISER_MID_STRIKE_A: "Палуба тяжёлого крейсера тип A"
+CRUISER_MID_STRIKE_B: "Палуба тяжёлого крейсера тип B"
+CRUISER_MID_STRIKE_C: "Палуба тяжёлого крейсера тип C"
+
+CRUISER_STERN_M2: "Кормовая батарея"
+CRUISER_STERN_G2: "Кормовые ракеты"
+CRUISER_STERN_S4: "Кормовые пушки"
+CRUISER_STERN_P4: "Кормовое ПВО"
+CRUISER_STERN_STRIKE_A: "Корма тяжёлого крейсера тип A"
+CRUISER_STERN_STRIKE_B: "Корма тяжёлого крейсера тип B"
+CRUISER_STERN_STRIKE_C: "Корма тяжёлого крейсера тип C"
+#-------------------------------------------------------------------#
+OFFSPRING_CRUISER_BOW_L2: "Носовая артиллерия"
+OFFSPRING_CRUISER_BOW_S3M3: "Носовые орудия"
+OFFSPRING_CRUISER_BOW_G3: "Носовые ракеты"
+### CRUISER_BOW_M1S2: "Volley Bow" (In Localisation Replace Folder) ###
+
+OFFSPRING_CRUISER_MID_M2L2: "Палубная артиллерия"
+OFFSPRING_CRUISER_MID_P2M6: "Палубная батарея"
+OFFSPRING_CRUISER_MID_S4M4: "Палубные орудия"
+OFFSPRING_CRUISER_MID_S4P2H1: "Палубные ангары"
+
+OFFSPRING_CRUISER_STERN_M2: "Кормовая батарея"
+OFFSPRING_CRUISER_STERN_G2: "Кормовые ракеты"
+OFFSPRING_CRUISER_STERN_S4: "Кормовые пушки"
+OFFSPRING_CRUISER_STERN_P4: "Кормовое ПВО"
+#-------------------------------------------------------------------#
+EXPLORATIONSHIP_1_BOW_L1: "Носовая артиллерия I"
+EXPLORATIONSHIP_1_BOW_M1S2: "Носовые орудия I"
+EXPLORATIONSHIP_1_BOW_M2: "Носовая батарея I"
+
+EXPLORATIONSHIP_1_MID1_M3: "Палубная батарея I"
+EXPLORATIONSHIP_1_MID1_S2: "Палубные пушки I"
+EXPLORATIONSHIP_1_MID1_PD2: "Палубное ПВО I"
+
+EXPLORATIONSHIP_1_MID2_M3: "Палубная батарея I"
+EXPLORATIONSHIP_1_MID2_S2: "Палубные пушки I"
+EXPLORATIONSHIP_1_MID2_PD2: "Палубное ПВО I"
+
+EXPLORATIONSHIP_1_STERN_M1: "Кормовая батарея I"
+EXPLORATIONSHIP_1_STERN_S2: "Кормовые пушки I"
+EXPLORATIONSHIP_1_STERN_PD2: "Кормовое ПВО I"
+#-------------------------------------------------------------------#
+EXPLORATIONSHIP_2_BOW_L1: "Носовая артиллерия II"
+EXPLORATIONSHIP_2_BOW_G1S2: "Носовые смеш. орудия II"
+EXPLORATIONSHIP_2_BOW_M5: "Носовая батарея II"
+
+EXPLORATIONSHIP_2_MID1_L1G1: "Палубная смеш. арт. II"
+EXPLORATIONSHIP_2_MID1_L1M1: "Палубная артиллерия II"
+EXPLORATIONSHIP_2_MID1_M2S2: "Палубные орудия II"
+EXPLORATIONSHIP_2_MID1_G3: "Палубные ракеты II"
+EXPLORATIONSHIP_2_MID1_M3: "Палубная батарея II"
+
+EXPLORATIONSHIP_2_MID2_L1G1: "Палубная смеш. арт. II"
+EXPLORATIONSHIP_2_MID2_L1M1: "Палубная артиллерия II"
+EXPLORATIONSHIP_2_MID2_M2S2: "Палубные орудия II"
+EXPLORATIONSHIP_2_MID2_G3: "Палубные ракеты II"
+EXPLORATIONSHIP_2_MID2_M3: "Палубная батарея II"
+
+EXPLORATIONSHIP_2_STERN_M2: "Кормовая батарея II"
+EXPLORATIONSHIP_2_STERN_S4: "Кормовые пушки II"
+EXPLORATIONSHIP_2_STERN_PD4: "Кормовое ПВО II"
+#-------------------------------------------------------------------#
+EXPLORATIONSHIP_3_BOW_L3: "Носовая артиллерия III"
+EXPLORATIONSHIP_3_BOW_G3S3: "Носовые смеш. орудия III"
+EXPLORATIONSHIP_3_BOW_M7: "Носовая батарея III"
+
+EXPLORATIONSHIP_3_MID1_L1G3: "Палубная смеш. арт. III"
+EXPLORATIONSHIP_3_MID1_L3M1: "Палубная артиллерия III"
+EXPLORATIONSHIP_3_MID1_M5S5: "Палубные орудия III"
+EXPLORATIONSHIP_3_MID1_G5H1: "Палубные ракеты III"
+EXPLORATIONSHIP_3_MID1_M7: "Палубная батарея III"
+
+EXPLORATIONSHIP_3_MID2_L1G3: "Палубная смеш. арт. III"
+EXPLORATIONSHIP_3_MID2_L3M1: "Палубная артиллерия III"
+EXPLORATIONSHIP_3_MID2_M5S5: "Палубные орудия III"
+EXPLORATIONSHIP_3_MID2_G7H2: "Палубные ракеты III" # Похоже, здесь была ошибка
+EXPLORATIONSHIP_3_MID2_M7: "Палубная батарея III"
+
+EXPLORATIONSHIP_3_STERN_M4: "Кормовая батарея III"
+EXPLORATIONSHIP_3_STERN_S8: "Кормовая лёгк. батарея III"
+EXPLORATIONSHIP_3_STERN_PD8: "Кормовое ПВО III"
+#-------------------------------------------------------------------#
+EXPLORATIONSHIP_4_BOW_L6: "Носовая артиллерия IV"
+EXPLORATIONSHIP_4_BOW_G7S7: "Носовые смеш. орудия IV"
+EXPLORATIONSHIP_4_BOW_M14: "Носовая батарея IV"
+
+EXPLORATIONSHIP_4_MID1_L3G6: "Палубная смеш. арт. IV"
+EXPLORATIONSHIP_4_MID1_L5M3: "Палубная артиллерия IV"
+EXPLORATIONSHIP_4_MID1_M10S10: "Палубные орудия IV"
+EXPLORATIONSHIP_4_MID1_G7H2: "Палубные ракеты IV"
+EXPLORATIONSHIP_4_MID1_M15: "Палубная батарея IV"
+
+EXPLORATIONSHIP_4_MID2_L3G6: "Палубная смеш. арт. IV"
+EXPLORATIONSHIP_4_MID2_L5M3: "Палубная артиллерия IV"
+EXPLORATIONSHIP_4_MID2_M10S10: "Палубные орудия IV"
+EXPLORATIONSHIP_4_MID2_G7H2: "Палубные ракеты IV"
+EXPLORATIONSHIP_4_MID2_M15: "Палубная батарея IV"
+
+EXPLORATIONSHIP_4_STERN_M6: "Кормовая батарея IV"
+EXPLORATIONSHIP_4_STERN_S12: "Кормовые пушки IV"
+EXPLORATIONSHIP_4_STERN_PD12: "Кормовое ПВО IV"
+#-------------------------------------------------------------------#
+BATTLECRUISER_BOW_L4: "Носовая артиллерия"
+BATTLECRUISER_BOW_S6M6: "Носовые орудия"
+BATTLECRUISER_BOW_P6M6: "Носовое ПВО"
+BATTLECRUISER_BOW_G8: "Носовые торпеды"
+
+BATTLECRUISER_MID1_S6M6: "Палубные орудия"
+BATTLECRUISER_MID1_M2L3: "Палубная артиллерия"
+BATTLECRUISER_MID1_G3L2: "Палубные бомбарды"
+BATTLECRUISER_MID1_M9: "Палубная батарея"
+BATTLECRUISER_MID1_G6: "Палубные торпеды"
+
+BATTLECRUISER_MID2_S6M6: "Палубные орудия"
+BATTLECRUISER_MID2_M2L3: "Палубная артиллерия"
+BATTLECRUISER_MID2_G3L2: "Палубные бомбарды"
+BATTLECRUISER_MID2_M9: "Палубная батарея"
+BATTLECRUISER_MID2_G6: "Палубные торпеды"
+
+BATTLECRUISER_STERN_M8: "Кормовая батарея"
+BATTLECRUISER_STERN_G6: "Кормовые ракеты"
+BATTLECRUISER_STERN_S8P8: "Кормовое ПВО"
+#-------------------------------------------------------------------#
+BATTLESHIP_BOW_S6M4L4: "Носовые орудия"
+BATTLESHIP_BOW_L7: "Носовая артиллерия"
+BATTLESHIP_BOW_G4M10P4: "Носовые смеш. орудия"
+BATTLESHIP_BOW_SF: "Нос 'Спитфайр'"
+
+BATTLESHIP_MID_M5L5: "Носовые орудия"
+BATTLESHIP_MID_L7: "Палубная артиллерия"
+BATTLESHIP_MID_M16: "Палубная батарея"
+BATTLESHIP_MID_SF: "Палуба 'Спитфайр'"
+
+BATTLESHIP_STERN_L3: "Кормовая артиллерия"
+BATTLESHIP_STERN_M8: "Кормовая батарея"
+BATTLESHIP_STERN_SF: "Корма 'Спитфайр'"
+#-------------------------------------------------------------------#
+OFFSPRING_BATTLESHIP_BOW_S6M4L4: "Носовые карронады"
+OFFSPRING_BATTLESHIP_BOW_L8: "Носовая артиллерия"
+OFFSPRING_BATTLESHIP_BOW_S5P5M5G5: "Носовые смеш. орудия"
+OFFSPRING_BATTLESHIP_BOW_S4P4G10: "Носовые ракеты"
+OFFSPRING_BATTLESHIP_BOW_SF: "Нос 'Спитфайр'"
+OFFSPRING_BATTLESHIP_BOW_XL1: "Носовой гл. калибр"
+
+OFFSPRING_BATTLESHIP_MID_M6L6: "Палубная батарея"
+OFFSPRING_BATTLESHIP_MID_G6L6: "Палубные бомбарды"
+OFFSPRING_BATTLESHIP_MID_L9: "Палубная артиллерия"
+OFFSPRING_BATTLESHIP_MID_M8G8: "Палубные смеш. орудия"
+OFFSPRING_BATTLESHIP_MID_S8P8H4: "Палубные ангары"
+OFFSPRING_BATTLESHIP_MID_SF: "Палуба 'Спитфайр'"
+
+OFFSPRING_BATTLESHIP_STERN_L3: "Кормовая артиллерия"
+OFFSPRING_BATTLESHIP_STERN_M8: "Кормовая батарея"
+OFFSPRING_BATTLESHIP_STERN_G5: "Кормовые ракеты"
+OFFSPRING_BATTLESHIP_STERN_SF: "Корма 'Спитфайр'"
+#-------------------------------------------------------------------#
+CARRIER_BOW_L1M3P4: "Носовая карронада"
+
+CARRIER_MID1_P4H4: "Палуба авианосца I"
+CARRIER_MID1_HEAVY: "Палуба авианосца II"
+CARRIER_MID1_SUPER: "Палуба авианосца III"
+
+CARRIER_MID2_P4H4: "Палуба авианосца I"
+CARRIER_MID2_HEAVY: "Палуба авианосца II"
+CARRIER_MID2_SUPER: "Палуба авианосца III"
+
+CARRIER_STERN_M3: "Кормовая батарея"
+CARRIER_STERN_P5: "Кормовые локаторы"
+#-------------------------------------------------------------------#
+DREADNOUGHT_BOW_S4P4M4L4: "Носовые смеш. орудия"
+DREADNOUGHT_BOW_L10: "Носовая артиллерия"
+DREADNOUGHT_BOW_S2P2G13: "Носовые ракеты"
+DREADNOUGHT_BOW_XL4: "Носовой гл. калибр"
+
+DREADNOUGHT_MID1_P3M7L6: "Палубные карронады"
+DREADNOUGHT_MID1_P3G5L6: "Палубные бомбарды"
+DREADNOUGHT_MID1_P3L9: "Палубная артиллерия"
+DREADNOUGHT_MID1_P3M9G9: "Палубные смеш. орудия"
+
+DREADNOUGHT_MID2_P3M7L6: "Палубные карронады"
+DREADNOUGHT_MID2_P3G5L6: "Палубные бомбарды"
+DREADNOUGHT_MID2_P3L9: "Палубная артиллерия"
+DREADNOUGHT_MID2_P3M9G9: "Палубные смеш. орудия"
+
+DREADNOUGHT_MID3_P3M7L6: "Палубные карронады"
+DREADNOUGHT_MID3_P3G5L6: "Палубные бомбарды"
+DREADNOUGHT_MID3_P3L9: "Палубная артиллерия"
+DREADNOUGHT_MID3_P3M9G9: "Палубные смеш. орудия"
+
+DREADNOUGHT_STERN_L5: "Кормовая артиллерия"
+DREADNOUGHT_STERN_M14: "Кормовая батарея"
+DREADNOUGHT_STERN_G9: "Кормовые ракеты"
+#-------------------------------------------------------------------#
+TITAN_BOW_T4: "Нос 'Сверхновая'"
+TITAN_BOW_X8: "Нос 'Аннигилятор'"
+TITAN_BOW_T3X3: "Нос 'Разрушитель'"
+
+TITAN_MID_L7: "Палубная артиллерия"
+TITAN_MID_M16: "Палубная батарея"
+TITAN_MID_G12: "Палубные торпеды"
+
+TITAN_STERN_P8L6: "Кормовая артиллерия"
+TITAN_STERN_P8M12: "Кормовая батарея"
+#-------------------------------------------------------------------#
+FLAGSHIP_BOW_H6T6: "Нос 'Штурмовик'"
+FLAGSHIP_BOW_H6X8T2: "Нос 'Василиск'"
+FLAGSHIP_BOW_H6X12: "Нос 'Буревестник'"
+FLAGSHIP_BOW_P4G4L6H6: "Нос 'Огненный Град'"
+FLAGSHIP_BOW_P4L10H6: "Носовая артиллерия"
+FLAGSHIP_BOW_P4M12H6: "Носовая батарея"
+
+FLAGSHIP_MID1_L20: "Палубная артиллерия"
+FLAGSHIP_MID1_M10L10: "Палубные бомбарды"
+FLAGSHIP_MID1_S8P4L8: "Палубные карронады"
+FLAGSHIP_MID1_G10L10: "Палубная смеш. арт."
+FLAGSHIP_MID1_G20: "Палубные ракеты"
+FLAGSHIP_MID1_M20: "Палубная батарея"
+FLAGSHIP_MID1_M10G10: "Палубные смеш. орудия"
+FLAGSHIP_MID1_P4H16: "Палубное авиакрыло"
+
+FLAGSHIP_MID2_L20: "Палубная артиллерия"
+FLAGSHIP_MID2_M10L10: "Палубные бомбарды"
+FLAGSHIP_MID2_S8P4L8: "Палубные карронады"
+FLAGSHIP_MID2_G10L10: "Палубная смеш. арт."
+FLAGSHIP_MID2_G20: "Палубные ракеты"
+FLAGSHIP_MID2_M20: "Палубная батарея"
+FLAGSHIP_MID2_M10G10: "Палубные смеш. орудия"
+FLAGSHIP_MID2_P4H16: "Палубное авиакрыло"
+
+FLAGSHIP_MID3_L20: "Палубная артиллерия"
+FLAGSHIP_MID3_M10L10: "Палубные бомбарды"
+FLAGSHIP_MID3_S8P4L8: "Палубные карронады"
+FLAGSHIP_MID3_G10L10: "Палубная смеш. арт."
+FLAGSHIP_MID3_G20: "Палубные ракеты"
+FLAGSHIP_MID3_M20: "Палубная батарея"
+FLAGSHIP_MID3_M10G10: "Палубные смеш. орудия"
+FLAGSHIP_MID3_P4H16: "Палубное авиакрыло"
+
+FLAGSHIP_MID4_L20: "Палубная артиллерия"
+FLAGSHIP_MID4_M10L10: "Палубные бомбарды"
+FLAGSHIP_MID4_S8P4L8: "Палубные карронады"
+FLAGSHIP_MID4_G10L10: "Палубная смеш. арт."
+FLAGSHIP_MID4_G20: "Палубные ракеты"
+FLAGSHIP_MID4_M20: "Палубная батарея"
+FLAGSHIP_MID4_M10G10: "Палубные смеш. орудия"
+FLAGSHIP_MID4_P4H16: "Палубное авиакрыло"
+
+FLAGSHIP_STERN_L20: "Кормовая артиллерия"
+FLAGSHIP_STERN_M20: "Кормовая батарея"
+FLAGSHIP_STERN_G20: "Кормовые ракеты"
+FLAGSHIP_STERN_P10M10: "Кормовое ПВО и орудия"
+FLAGSHIP_STERN_P10H10: "Кормовое ПВО и ангары"
+#-------------------------------------------------------------------#
+STRONGHOLD_STARBASE_SECTION_T: "Секция Великой Цитадели"
+STRONGHOLD_STARBASE_SECTION_XL: "Секция Великой Цитадели"
+#-------------------------------------------------------------------#
+HEADQUARTERS_STARBASE_SECTION_T: "Секция Звёздного Оплота"
+HEADQUARTERS_STARBASE_SECTION_XL: "Секция Звёздного Оплота"
+#-------------------------------------------------------------------#
+PDSMALL_MILITARY_STATION_SECTION: "Лёгкая/ПВО-секция"
+MEDTORP_MILITARY_STATION_SECTION: "Средняя/торпедная секция"
+
+LIGHT_MILITARY_STATION_SECTION_2: "Лёгкая секция"
+PD_MILITARY_STATION_SECTION_2: "ПВО-секция"
+PDSMALL_MILITARY_STATION_SECTION_2: "Лёгкая/ПВО-секция"
+MEDIUM_MILITARY_STATION_SECTION_2: "Средняя секция"
+MEDTORP_MILITARY_STATION_SECTION_2: "Средняя/торпедная секция"
+MISSILE_MILITARY_STATION_SECTION_2: "Ракетная секция"
+HEAVY_MILITARY_STATION_SECTION_2: "Тяжёлая секция"
+HANGAR_MILITARY_STATION_SECTION_2: "Ангарная секция"
+
+LIGHT_MILITARY_STATION_SECTION_3: "Лёгкая секция"
+PD_MILITARY_STATION_SECTION_3: "ПВО-секция станции"
+PDSMALL_MILITARY_STATION_SECTION_3: "Лёгкая/ПВО-секция"
+MEDIUM_MILITARY_STATION_SECTION_3: "Средняя секция"
+MEDTORP_MILITARY_STATION_SECTION_3: "Средняя/торпедная секция"
+MISSILE_MILITARY_STATION_SECTION_3: "Ракетная секция"
+HEAVY_MILITARY_STATION_SECTION_3: "Тяжёлая секция"
+HANGAR_MILITARY_STATION_SECTION_3: "Ангарная секция"
+
+#-------------------------------------------------------------------#
+XL_CANNON_CORE: "Палубное орудие-Аннигилятор"
+T_CANNON_CORE: "Палубное орудие-Стиратель"
+T_CANNON_CORE: "Палубный Стиратель"
+#-------------------------------------------------------------------#
+MISSILE_JUGGERNAUT_SECTION: "Ракетная секция"
+ARTILLERY_JUGGERNAUT_SECTION: "Артиллерийская секция"
+STRIKECRAFT_JUGGERNAUT_SECTION: "Ангарная секция"
+ARTILLERY_JUGGERNAUT_SECTION: "Батарейная секция"
+MEDIUM_JUGGERNAUT_SECTION: "Батарейная секция"
+#-------------------------------------------------------------------#
+CORE1_HEADQUARTERS_SECTION: "Секция Штаб-квартиры"
+CORE2_HEADQUARTERS_SECTION: "Секция Штаб-квартиры"
+CORE3_HEADQUARTERS_SECTION: "Секция Штаб-квартиры"
+CORE4_HEADQUARTERS_SECTION: "Секция Штаб-квартиры"

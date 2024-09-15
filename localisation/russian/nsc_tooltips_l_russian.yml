@@ -1,0 +1,51 @@
+﻿l_russian:
+
+##################################################################################################################################################################################################################
+### TOOLTIPS ###
+################
+
+requires_no_existing_nsc_factory: "Вы можете построить только одну Фабрику стратегических ресурсов."
+requires_no_existing_mall: "Вы можете построить только один ГалактМолл."
+requires_no_existing_hospital: "Вы можете построить только один Большой Галактический Госпиталь."
+requires_no_existing_nsc_headquarters: "Вы можете построить только одну Штаб-квартиру."
+
+TBA: "\n§g(- Description To Be Added -)§!\n"
+
+starbase_management_limit: "§RТолько пять §Y$sm_starbase_management$§! может быть построено.§!"
+starbase_management_machine_limit: "§RТолько пять §Y$sm_starbase_management_machine$§! может быть построено.§!"
+starbase_management_hive_limit: "§RТолько пять §Y$sm_starbase_management_hive$§! может быть построено.§!"
+requires_colony: "Требуется колонизированная планета"
+requires_stronghold: "Требуется Великая Цитадель"
+
+requires_technology_hyperlane_generation: "$TRIGGER_FAIL$Требуется технология £physics  §Y$tech_hyperlane_generation$§!."
+
+requires_no_existing_generator_emisor: "$TRIGGER_FAIL$Нельзя построить, когда уже существует §YГенератор гиперкоридоров (Излучатель)§! в государстве."
+requires_existing_generator_receptor: "$TRIGGER_FAIL$Требуется уже построенный §YГенератор гиперкоридоров (Приемник)§! в государстве."
+requires_existing_generator_emisor: "$TRIGGER_FAIL$Требуется уже построенный §YГенератор гиперкоридоров (Излучатель)§! в подконтрольной системе, не соединенной гиперкоридором с §Y[Root.GetName]§!."
+requires_no_existing_system_generator_emisor: "$TRIGGER_FAIL$Нельзя построить, пока §YГенератор гиперкоридоров (Излучатель)§! присутствует в системе."
+requires_no_existing_generator_receptor: "$TRIGGER_FAIL$Нельзя построить, пока §YГенератор гиперкоридоров (Приемник)§! присутствует в системе."
+
+requires_no_existing_remover_emisor: "$TRIGGER_FAIL$Нельзя построить, пока уже существует §YПрерыватель гиперкоридоров (Излучатель)§! в государстве."
+requires_existing_remover_receptor: "$TRIGGER_FAIL$Требуется уже построенный §YПрерыватель гиперкоридоров (Приемник)§! в государстве."
+requires_existing_remover_emisor: "$TRIGGER_FAIL$Requires existing §YПрерыватель гиперкоридоров (Излучатель)§! в подконтрольной системе, соединенной гиперкоридором с §Y[Root.GetName]§!."
+requires_no_existing_system_remover_emisor: "$TRIGGER_FAIL$Нельзя построить, пока уже существует §YПрерыватель гиперкоридоров (Излучатель)§! в системе."
+requires_no_existing_remover_receptor: "$TRIGGER_FAIL$Нельзя построить, пока уже существует §YПрерыватель гиперкоридоров (Приемник)§! в государстве."
+
+nsc_headquarters_bonus: "Бонус Штаб-квартиры"
+
+requires_technology_exploration_cruiser: "Требуется §H\"Пионер I\"§!"
+requires_technology_automated_exploration: "Требуется технология §BПротоколы автоматического изучения§!"
+requires_discovery_tree: "Требуется завершенное древо традиций §MОткрытие§!"
+
+starbase_h_limit.tooltip.fail: "Вы не можете построить больше 6 ангарных доков на базе."
+starbase_t_limit.tooltip.fail: "Вы не можете построить больше 2-х гигантских орудий на базе."
+starbase_xl_limit.tooltip.fail: "Вы не можете построить больше 6 XL орудий на базе."
+
+starbase_filler_limit.tooltip.fail: "Вы не можете построить более трёх таких модулей на базе."
+
+nsc.requires.asteroid: "Требуется наличие астероида в системе."
+
+CLOAKING_FRIGATE_TOOLTIP: "Бонус к скорости корабля: §G25%§!\nБонус к уклонению фрегата: §G15%§!"
+CLOAKING_BATTLECRUISER_TOOLTIP: "Ослабление щитов линейного крейсера: §R80%§!\nСнижение скорости линейного крейсера §R50%§!"
+
+starbase_detection_limit.tooltip.fail: "Вы не можете построить больше 6 сенсорных станций на базе."
