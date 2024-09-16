@@ -180,7 +180,7 @@ EXPLORATIONSHIP_3_MID1_M7: "Палубная батарея III"
 EXPLORATIONSHIP_3_MID2_L1G3: "Палубная смеш. арт. III"
 EXPLORATIONSHIP_3_MID2_L3M1: "Палубная артиллерия III"
 EXPLORATIONSHIP_3_MID2_M5S5: "Палубные орудия III"
-EXPLORATIONSHIP_3_MID2_G7H2: "Палубные ракеты III" # Похоже, здесь была ошибка
+EXPLORATIONSHIP_3_MID2_G7H2: "Палубные ракеты III"
 EXPLORATIONSHIP_3_MID2_M7: "Палубная батарея III"
 
 EXPLORATIONSHIP_3_STERN_M4: "Кормовая батарея III"

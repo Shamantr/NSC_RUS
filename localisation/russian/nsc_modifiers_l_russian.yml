@@ -91,9 +91,9 @@ mod_shipsize_Carrier_hull_mult: "Прочность обшивки авиано�
 mod_shipsize_Dreadnought_hull_mult: "Прочность обшивки дредноута"
 mod_shipsize_Flagship_hull_mult: "Прочность обшивки Флагмана"
 
-mod_brawler_weapon_damage_mult: "Урон кинетического оружия"
-mod_gunship_weapon_damage_mult: "Урон энергетического оружия"
-mod_explosive_weapon_damage_mult: "Урон взрывного оружия"
+mod_brawler_weapon_damage_mult: "Урон кинетического оружия (размер S/M/L)"
+mod_gunship_weapon_damage_mult: "Урон энергетического оружия (размер S/M/L)"
+mod_explosive_weapon_damage_mult: "Урон взрывного оружия (размер S/M/L)"
 
 megastructures_nsc_flagship_shipyard: "Великая Верфь"
 mod_megastructures_nsc_flagship_shipyard_cost_mult: "Стоимость постройки Великой Верфи"
