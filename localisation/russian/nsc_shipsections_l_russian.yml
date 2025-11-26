@@ -6,33 +6,42 @@
 #############################################
 
 STRIKECRUISER: "Тяжелый крейсер"
-BATTLECRUISER: "Линейный крейсер"
-CARRIER: "Авианосец"
-DREADNOUGHT: "Дредноут"
-FLAGSHIP: "Флагман"
-SUPPORTSHIP: "Корабль сопровождения"
-EXPLORATIONSHIP: "\"Пионер\""
-
 StrikeCruiser: "Тяжелый крейсер"
+StrikeCruiser_cap: "Тяжелый крейсер"
 StrikeCruiser_plural: "Тяжелых крейсеров"
+
+BATTLECRUISER: "Линейный крейсер"
 Battlecruiser: "Линейный крейсер"
-Battlecruiser_plural: "Линейных крейсеров" 
+Battlecruiser_cap: "Линейный крейсер"
+Battlecruiser_plural: "Линейных крейсеров"
+
+CARRIER: "Авианосец"
 Carrier: "Авианосец"
 Carrier_plural: "Авианосцев"
+Carrier_cap: "Авианосец"
+
+DREADNOUGHT: "Дредноут"
 Dreadnought: "Дредноут"
 Dreadnought_plural: "Дредноутов"
+Dreadnought_cap: "Дредноут"
+
+FLAGSHIP: "Флагман"
 Flagship: "Флагман"
 Flagship_plural: "Флагманов"
-supportship: "Корабль сопровождения"
-supportship_plural: "Кораблей сопровождения"
+Flagship_cap: "Флагман"
+
+EXPLORATIONSHIP: "\"Пионер\""
 explorationship: "\"Пионер\""
-explorationship_plural: "\"Пионеры\""
+explorationship_plural: "\"Пионеров\""
+explorationship_cap: "\"Пионер\""
 
 starbase_stronghold: "Великая цитадель"
 starbase_stronghold_plural: "Великих цитаделей"
+starbase_stronghold_cap: "Великая цитадель" 
 
-starbase_headquarters: "Звездный оплот"
-starbase_headquarters_plural: "Звездных оплотов"
+starbase_headquarters: "Звёздный оплот"
+starbase_headquarters_plural: "Звёздных оплотов"
+starbase_headquarters_cap: "Звёздный оплот"
 
 
 
@@ -95,7 +104,7 @@ OFFSPRING_DESTROYER_STERN_P4: "Кормовое ПВО"
 CRUISER_BOW_L3: "Носовая артиллерия"
 CRUISER_BOW_M4S4: "Носовые орудия"
 CRUISER_BOW_M2S3P3: "Носовые смеш. орудия"
-CRUISER_BOW_M6: "Носовая батарея"
+CRUISER_BOW_M6: "Носовая батарея I"
 CRUISER_BOW_STRIKE_A: "Нос тяжёлого крейсера тип A"
 CRUISER_BOW_STRIKE_B: "Нос тяжёлого крейсера тип B"
 CRUISER_BOW_STRIKE_C: "Нос тяжёлого крейсера тип C"
@@ -115,6 +124,18 @@ CRUISER_STERN_P4: "Кормовое ПВО"
 CRUISER_STERN_STRIKE_A: "Корма тяжёлого крейсера тип A"
 CRUISER_STERN_STRIKE_B: "Корма тяжёлого крейсера тип B"
 CRUISER_STERN_STRIKE_C: "Корма тяжёлого крейсера тип C"
+#-------------------------------------------------------------------#
+STRIKECRUISER_BOW_G7P3: "Носовые торпеды"
+STRIKECRUISER_BOW_M10P4: "Носовая батарея"
+STRIKECRUISER_BOW_M4S14P2: "Носовые смеш. орудия"
+
+STRIKECRUISER_MID_G6P2: "Палубные торпеды"
+STRIKECRUISER_MID_M9P2: "Палубная батарея"
+STRIKECRUISER_MID_M4S10P2: "Палубные смеш. орудия"
+
+STRIKECRUISER_STERN_G4: "Кормовые торпеды"
+STRIKECRUISER_STERN_M6: "Кормовая батарея"
+STRIKECRUISER_STERN_P12: "Кормовое ПВО"
 #-------------------------------------------------------------------#
 OFFSPRING_CRUISER_BOW_L2: "Носовая артиллерия"
 OFFSPRING_CRUISER_BOW_S3M3: "Носовые орудия"
@@ -180,7 +201,7 @@ EXPLORATIONSHIP_3_MID1_M7: "Палубная батарея III"
 EXPLORATIONSHIP_3_MID2_L1G3: "Палубная смеш. арт. III"
 EXPLORATIONSHIP_3_MID2_L3M1: "Палубная артиллерия III"
 EXPLORATIONSHIP_3_MID2_M5S5: "Палубные орудия III"
-EXPLORATIONSHIP_3_MID2_G7H2: "Палубные ракеты III"
+EXPLORATIONSHIP_3_MID2_G5H1: "Палубные ракеты III"
 EXPLORATIONSHIP_3_MID2_M7: "Палубная батарея III"
 
 EXPLORATIONSHIP_3_STERN_M4: "Кормовая батарея III"
@@ -228,6 +249,7 @@ BATTLECRUISER_STERN_M8: "Кормовая батарея"
 BATTLECRUISER_STERN_G6: "Кормовые ракеты"
 BATTLECRUISER_STERN_S8P8: "Кормовое ПВО"
 #-------------------------------------------------------------------#
+BATTLESHIP_BOW_XL: "Нос 'Аннигилятор'"
 BATTLESHIP_BOW_S6M4L4: "Носовые орудия"
 BATTLESHIP_BOW_L7: "Носовая артиллерия"
 BATTLESHIP_BOW_G4M10P4: "Носовые смеш. орудия"
@@ -358,11 +380,11 @@ FLAGSHIP_STERN_G20: "Кормовые ракеты"
 FLAGSHIP_STERN_P10M10: "Кормовое ПВО и орудия"
 FLAGSHIP_STERN_P10H10: "Кормовое ПВО и ангары"
 #-------------------------------------------------------------------#
-STRONGHOLD_STARBASE_SECTION_T: "Секция Великой Цитадели"
-STRONGHOLD_STARBASE_SECTION_XL: "Секция Великой Цитадели"
+STRONGHOLD_STARBASE_SECTION_T: "Секция Великой цитадели"
+STRONGHOLD_STARBASE_SECTION_XL: "Секция Великой цитадели"
 #-------------------------------------------------------------------#
-HEADQUARTERS_STARBASE_SECTION_T: "Секция Звёздного Оплота"
-HEADQUARTERS_STARBASE_SECTION_XL: "Секция Звёздного Оплота"
+HEADQUARTERS_STARBASE_SECTION_T: "Секция Звёздного оплота"
+HEADQUARTERS_STARBASE_SECTION_XL: "Секция Звёздного оплота"
 #-------------------------------------------------------------------#
 PDSMALL_MILITARY_STATION_SECTION: "Лёгкая/ПВО-секция"
 MEDTORP_MILITARY_STATION_SECTION: "Средняя/торпедная секция"
@@ -386,14 +408,14 @@ HEAVY_MILITARY_STATION_SECTION_3: "Тяжёлая секция"
 HANGAR_MILITARY_STATION_SECTION_3: "Ангарная секция"
 
 #-------------------------------------------------------------------#
-XL_CANNON_CORE: "Палубное орудие-Аннигилятор"
-T_CANNON_CORE: "Палубное орудие-Стиратель"
-T_CANNON_CORE: "Палубный Стиратель"
+XL_CANNON_CORE: "Палубное орудие 'Аннигилятор'"
+T_CANNON_CORE: "Палубное орудие 'Стиратель'"
+T_CANNON_CORE: "Ядро 'Стирателя'" # Зачем эта строка? 
 #-------------------------------------------------------------------#
-MISSILE_JUGGERNAUT_SECTION: "Ракетная секция"
+MISSILE_JUGGERNAUT_SECTION: "Торпедная секция"
 ARTILLERY_JUGGERNAUT_SECTION: "Артиллерийская секция"
 STRIKECRAFT_JUGGERNAUT_SECTION: "Ангарная секция"
-ARTILLERY_JUGGERNAUT_SECTION: "Батарейная секция"
+ARTILLERY_JUGGERNAUT_SECTION: "Батарейная секция" # Это что и куда? Почему дубликат?
 MEDIUM_JUGGERNAUT_SECTION: "Батарейная секция"
 #-------------------------------------------------------------------#
 CORE1_HEADQUARTERS_SECTION: "Секция Штаб-квартиры"

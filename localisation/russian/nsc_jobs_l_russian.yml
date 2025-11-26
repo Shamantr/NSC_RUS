@@ -4,8 +4,22 @@
 ### JOBS ###
 ############
 
-job_diagnostician:0 "Диагност"
-job_diagnostician_plural:0 "Диагностики"
-job_diagnostician_desc:0 "Эти специализированные работники Галактического госпиталя являются экспертами в производстве роботов или продвинутом лечении органиков"
+job_diagnostician: "Диагност"
+job_diagnostician_plural: "Диагносты"
+job_diagnostician_desc: "Эти специализированные работники Галактического госпиталя являются экспертами в производстве роботов и рождаемости органиков"
+mod_job_diagnostician_add: "Должности диагностов"
 
-mod_job_diagnostician_add:0 "Должности $job_diagnostician$"
+## Hive Empire Swap
+job_diagnostician_hive: "Дрон-диагност"
+job_diagnostician_hive_plural: "Дроны-диагносты"
+job_diagnostician_hive_desc: "Эти особые дроны Галактического госпиталя являются экспертами в производстве роботов и рождаемости органиков"
+mod_job_diagnostician_hive_add: "Должности дронов-диагностов"
+
+## Machine Swap
+job_diagnostician_machine: "Дрон-диагност"
+job_diagnostician_machine_plural: "Дроны-диагносты"
+job_diagnostician_machine_desc: "Эти особые дроны Галактического госпиталя являются экспертами в производстве роботов и рождаемости органиков"
+mod_job_diagnostician_machine_add: "Должности дронов-диагностов"
+
+diagnostician_hive: "Дрон-диагност"
+diagnostician_machine: "Дрон-диагност"
