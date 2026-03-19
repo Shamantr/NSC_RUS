@@ -21,7 +21,7 @@ requires_technology_hyperlane_generation: "$TRIGGER_FAIL$Требуется те
 
 requires_no_existing_generator_emisor: "$TRIGGER_FAIL$Нельзя построить, когда уже существует §YГенератор гиперкоридоров (Излучатель)§! в государстве."
 requires_existing_generator_receptor: "$TRIGGER_FAIL$Требуется уже построенный §YГенератор гиперкоридоров (Приёмник)§! в государстве."
-requires_existing_generator_emisor: "$TRIGGER_FAIL$Требуется уже построенный §YГенератор гиперкоридоров (Излучатель)§! в подконтрольной системе, не соединенной гиперкоридором с §Y[Root.GetName]§!."
+requires_existing_generator_emisor: "$TRIGGER_FAIL$Требуется уже построенный §YГенератор гиперкоридоров (Излучатель)§! в подконтрольной системе, не соединённой гиперкоридором с §Y[Root.GetName]§!."
 requires_no_existing_system_generator_emisor: "$TRIGGER_FAIL$Нельзя построить, пока §YГенератор гиперкоридоров (Излучатель)§! присутствует в системе."
 requires_no_existing_generator_receptor: "$TRIGGER_FAIL$Нельзя построить, пока §YГенератор гиперкоридоров (Приёмник)§! присутствует в системе."
 

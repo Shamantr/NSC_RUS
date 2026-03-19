@@ -49,8 +49,8 @@ mod_ship_Flagship_cost_mult: "Стоимость постройки флагма
 mod_shipsize_headquarters_build_speed_mult: "Скорость постройки Штаб-квартиры"
 mod_ship_headquarters_cost_mult: "Стоимость постройки Штаб-квартиры"
 
-mod_shipsize_explorationship_build_speed_mult: "Скорость постройки \"Пионера\""
-mod_ship_explorationship_cost_mult: "Стоимость постройки \"Пионера\""
+mod_shipsize_explorationship_build_speed_mult: "Скорость постройки 'Пионера'"
+mod_ship_explorationship_cost_mult: "Стоимость постройки 'Пионера'"
 
 mod_country_resource_max_minerals_add: "Максимальный объем складов минералов"
 mod_country_resource_max_energy_add: "Максимальная емкость хранилищ энергии"
