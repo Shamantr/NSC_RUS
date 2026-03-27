@@ -14,3 +14,16 @@ CRISIS_CORVETTE_MID_S3: "Корпус перехватчика"
 DESTROYER_BOW_L1: "Носовая артиллерия"
 
 military_station_large: "Крепость"
+
+
+eternal_vigilance_full_spending: "Полное финансирование (оборонительные платформы)"
+eternal_vigilance_full_spending_name: "$eternal_vigilance_full_spending$"
+eternal_vigilance_full_spending_desc: "Необходимо защитить все космические базы. Не жалейте ресурсов.\nАвтоматически строить §Yоборонительные платформы§! вокруг всех §Yкосмических баз§!"
+eternal_vigilance_half_spending: "Частичное финансирование (оборонительные платформы)"
+eternal_vigilance_half_spending_name: "$eternal_vigilance_half_spending$"
+eternal_vigilance_half_spending_desc: "Следует поддерживать только наши самые мощные укрепления.\nАвтоматически строить §Yоборонительные платформы§! вокруг §Yбаз-бастионов§!"
+
+sm_naval_logistics_office_desc:1 "Минимальная, но существующая до сих пор бюрократическая прослойка повышает теоретический максимум стояночных мест на космической базе.\n"
+sm_naval_logistics_office_desc_modifier:2 "Стояночные места: §G+3§! к §Yвместимости флота§!\nГавань: §G+50§! к §Yвместимости флота§!"
+
+requires_anchorage: "Требуется §Yстояночное место§! или §Yгавань§!."

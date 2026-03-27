@@ -11,7 +11,7 @@ requires_no_existing_nsc_headquarters: "Вы можете построить т�
 
 TBA: "\n§g(- Description To Be Added -)§!\n"
 
-starbase_management_limit: "§RМожно построить только пять (5) §Yадм. офисов звёздной базы§!.§!"
+starbase_management_limit: "§RМожно построить только пять (5) §Yадм. офисов космической базы§!.§!"
 starbase_management_machine_limit: "§RМожно построить только пять (5) §Yузлов межзвёздной сети§!.§!"
 starbase_management_hive_limit: "§RМожно построить только пять (5) §Yзвёздных логовищ§!.§!"
 requires_colony: "Требуется колонизированная планета"
@@ -34,7 +34,7 @@ requires_no_existing_remover_receptor: "$TRIGGER_FAIL$Нельзя постро�
 nsc_headquarters_bonus: "Бонус Штаб-квартиры"
 nsc_ftl_disrupted: "Поломка гипердвигателя"
 
-requires_technology_exploration_cruiser: "Требуется §H\"Пионер I\"§!"
+requires_technology_exploration_cruiser: "Требуется §H'Пионер I'§!"
 requires_technology_automated_exploration: "Требуется технология §BПротоколы автоматического изучения§!"
 requires_discovery_tree: "Требуется завершенное древо традиций §MОткрытие§!"
 
