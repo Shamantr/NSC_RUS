@@ -5,10 +5,10 @@
 ############ HULL SIZES #####################
 #############################################
 
-STRIKECRUISER: "Тяжелый крейсер"
-StrikeCruiser: "Тяжелый крейсер"
-StrikeCruiser_cap: "Тяжелый крейсер"
-StrikeCruiser_plural: "Тяжелых крейсеров"
+STRIKECRUISER: "Тяжёлый крейсер"
+StrikeCruiser: "Тяжёлый крейсер"
+StrikeCruiser_cap: "Тяжёлый крейсер"
+StrikeCruiser_plural: "Тяжёлых крейсеров"
 
 BATTLECRUISER: "Линейный крейсер"
 Battlecruiser: "Линейный крейсер"
@@ -30,10 +30,25 @@ Flagship: "Флагман"
 Flagship_plural: "Флагманов"
 Flagship_cap: "Флагман"
 
-EXPLORATIONSHIP: "'Пионер'"
-explorationship: "'Пионер'"
-explorationship_plural: "'Пионеров'"
-explorationship_cap: "'Пионер'"
+EXPLORATIONSHIP: "«Пионер»"
+explorationship: "«Пионер»"
+explorationship_plural: "«Пионеров»"
+explorationship_cap: "«Пионер»"
+
+BIO_DREADNOUGHT: "Разоритель"
+bio_dreadnought: "Разоритель"
+bio_dreadnought_plural: "Разорителей"
+bio_dreadnought_cap: "Разоритель"
+
+BIO_EXPLORER: "Часовой"
+bio_explorer: "Часовой"
+bio_explorer_plural: "Часовых"
+bio_explorer_cap: "Часовой"
+
+BIO_FLAGSHIP: "Прародитель"
+bio_flagship: "Прародитель"
+bio_flagship_plural: "Прародителей"
+bio_flagship_cap: "Прародитель"
 
 starbase_stronghold: "Великая цитадель"
 starbase_stronghold_plural: "Великих цитаделей"
@@ -249,26 +264,26 @@ BATTLECRUISER_STERN_M8: "Кормовая батарея"
 BATTLECRUISER_STERN_G6: "Кормовые ракеты"
 BATTLECRUISER_STERN_S8P8: "Кормовое ПВО"
 #-------------------------------------------------------------------#
-BATTLESHIP_BOW_XL: "Нос 'Аннигилятор'"
+BATTLESHIP_BOW_XL: "Нос «Аннигилятор»"
 BATTLESHIP_BOW_S6M4L4: "Носовые орудия"
 BATTLESHIP_BOW_L7: "Носовая артиллерия"
 BATTLESHIP_BOW_G4M10P4: "Носовые смеш. орудия"
-BATTLESHIP_BOW_SF: "Нос 'Спитфайр'"
+BATTLESHIP_BOW_SF: "Нос «Спитфайр»"
 
 BATTLESHIP_MID_M5L5: "Носовые орудия"
 BATTLESHIP_MID_L7: "Палубная артиллерия"
 BATTLESHIP_MID_M16: "Палубная батарея"
-BATTLESHIP_MID_SF: "Палуба 'Спитфайр'"
+BATTLESHIP_MID_SF: "Палуба «Спитфайр»"
 
 BATTLESHIP_STERN_L3: "Кормовая артиллерия"
 BATTLESHIP_STERN_M8: "Кормовая батарея"
-BATTLESHIP_STERN_SF: "Корма 'Спитфайр'"
+BATTLESHIP_STERN_SF: "Корма «Спитфайр»"
 #-------------------------------------------------------------------#
 OFFSPRING_BATTLESHIP_BOW_S6M4L4: "Носовые карронады"
 OFFSPRING_BATTLESHIP_BOW_L8: "Носовая артиллерия"
 OFFSPRING_BATTLESHIP_BOW_S5P5M5G5: "Носовые смеш. орудия"
 OFFSPRING_BATTLESHIP_BOW_S4P4G10: "Носовые ракеты"
-OFFSPRING_BATTLESHIP_BOW_SF: "Нос 'Спитфайр'"
+OFFSPRING_BATTLESHIP_BOW_SF: "Нос «Спитфайр»"
 OFFSPRING_BATTLESHIP_BOW_XL1: "Носовой гл. калибр"
 
 OFFSPRING_BATTLESHIP_MID_M6L6: "Палубная батарея"
@@ -276,12 +291,12 @@ OFFSPRING_BATTLESHIP_MID_G6L6: "Палубные бомбарды"
 OFFSPRING_BATTLESHIP_MID_L9: "Палубная артиллерия"
 OFFSPRING_BATTLESHIP_MID_M8G8: "Палубные смеш. орудия"
 OFFSPRING_BATTLESHIP_MID_S8P8H4: "Палубные ангары"
-OFFSPRING_BATTLESHIP_MID_SF: "Палуба 'Спитфайр'"
+OFFSPRING_BATTLESHIP_MID_SF: "Палуба «Спитфайр»"
 
 OFFSPRING_BATTLESHIP_STERN_L3: "Кормовая артиллерия"
 OFFSPRING_BATTLESHIP_STERN_M8: "Кормовая батарея"
 OFFSPRING_BATTLESHIP_STERN_G5: "Кормовые ракеты"
-OFFSPRING_BATTLESHIP_STERN_SF: "Корма 'Спитфайр'"
+OFFSPRING_BATTLESHIP_STERN_SF: "Корма «Спитфайр»"
 #-------------------------------------------------------------------#
 CARRIER_BOW_L1M3P4: "Носовая карронада"
 
@@ -320,9 +335,9 @@ DREADNOUGHT_STERN_L5: "Кормовая артиллерия"
 DREADNOUGHT_STERN_M14: "Кормовая батарея"
 DREADNOUGHT_STERN_G9: "Кормовые ракеты"
 #-------------------------------------------------------------------#
-TITAN_BOW_T4: "Нос 'Сверхновая'"
-TITAN_BOW_X8: "Нос 'Аннигилятор'"
-TITAN_BOW_T3X3: "Нос 'Разрушитель'"
+TITAN_BOW_T4: "Нос «Сверхновая»"
+TITAN_BOW_X8: "Нос «Аннигилятор»"
+TITAN_BOW_T3X3: "Нос «Разрушитель»"
 
 TITAN_MID_L7: "Палубная артиллерия"
 TITAN_MID_M16: "Палубная батарея"
@@ -331,10 +346,10 @@ TITAN_MID_G12: "Палубные торпеды"
 TITAN_STERN_P8L6: "Кормовая артиллерия"
 TITAN_STERN_P8M12: "Кормовая батарея"
 #-------------------------------------------------------------------#
-FLAGSHIP_BOW_H6T6: "Нос 'Штурмовик'"
-FLAGSHIP_BOW_H6X8T2: "Нос 'Василиск'"
-FLAGSHIP_BOW_H6X12: "Нос 'Буревестник'"
-FLAGSHIP_BOW_P4G4L6H6: "Нос 'Огненный Град'"
+FLAGSHIP_BOW_H6T6: "Нос «Штурмовик»"
+FLAGSHIP_BOW_H6X8T2: "Нос «Василиск»"
+FLAGSHIP_BOW_H6X12: "Нос «Буревестник»"
+FLAGSHIP_BOW_P4G4L6H6: "Нос «Огненный Град»"
 FLAGSHIP_BOW_P4L10H6: "Носовая артиллерия"
 FLAGSHIP_BOW_P4M12H6: "Носовая батарея"
 
@@ -408,9 +423,9 @@ HEAVY_MILITARY_STATION_SECTION_3: "Тяжёлая секция"
 HANGAR_MILITARY_STATION_SECTION_3: "Ангарная секция"
 
 #-------------------------------------------------------------------#
-XL_CANNON_CORE: "Палубное орудие 'Аннигилятор'"
-T_CANNON_CORE: "Палубное орудие 'Стиратель'"
-T_CANNON_CORE: "Ядро 'Стирателя'" # Зачем эта строка? 
+XL_CANNON_CORE: "Палубное орудие «Аннигилятор»"
+T_CANNON_CORE: "Палубное орудие «Стиратель»"
+T_CANNON_CORE: "Ядро «Стирателя»" # Зачем эта строка? 
 #-------------------------------------------------------------------#
 MISSILE_JUGGERNAUT_SECTION: "Торпедная секция"
 ARTILLERY_JUGGERNAUT_SECTION: "Артиллерийская секция"
@@ -422,3 +437,104 @@ CORE1_HEADQUARTERS_SECTION: "Секция Штаб-квартиры"
 CORE2_HEADQUARTERS_SECTION: "Секция Штаб-квартиры"
 CORE3_HEADQUARTERS_SECTION: "Секция Штаб-квартиры"
 CORE4_HEADQUARTERS_SECTION: "Секция Штаб-квартиры"
+#-------------------------------------------------------------------#
+BIO_DREADNOUGHT_BOW_S4P4M4L4: "Носовые смеш. орудия"
+BIO_DREADNOUGHT_BOW_L10: "Носовая артиллерия"
+BIO_DREADNOUGHT_BOW_S2P2G13: "Носовые ракеты"
+BIO_DREADNOUGHT_BOW_XL4: "Носовой гл. калибр"
+
+BIO_DREADNOUGHT_MID1_P3M7L6: "Палубные карронады"
+BIO_DREADNOUGHT_MID1_P3G5L6: "Палубные бомбарды"
+BIO_DREADNOUGHT_MID1_P3L9: "Палубная артиллерия"
+BIO_DREADNOUGHT_MID1_P3M9G9: "Палубные смеш. орудия"
+
+BIO_DREADNOUGHT_MID2_P3M7L6: "Палубные карронады"
+BIO_DREADNOUGHT_MID2_P3G5L6: "Палубные бомбарды"
+BIO_DREADNOUGHT_MID2_P3L9: "Палубная артиллерия"
+BIO_DREADNOUGHT_MID2_P3M9G9: "Палубные смеш. орудия"
+
+BIO_DREADNOUGHT_MID3_P3M7L6: "Палубные карронады"
+BIO_DREADNOUGHT_MID3_P3G5L6: "Палубные бомбарды"
+BIO_DREADNOUGHT_MID3_P3L9: "Палубная артиллерия"
+BIO_DREADNOUGHT_MID3_P3M9G9: "Палубные смеш. орудия"
+
+BIO_DREADNOUGHT_STERN_L5: "Кормовая артиллерия"
+BIO_DREADNOUGHT_STERN_M14: "Кормовая батарея"
+BIO_DREADNOUGHT_STERN_G9: "Кормовые ракеты"
+#-------------------------------------------------------------------#
+BIO_EXPLORER_1_BOW_L1: "Носовая артиллерия I"
+BIO_EXPLORER_1_BOW_M1S2: "Носовые орудия I"
+BIO_EXPLORER_1_BOW_M2: "Носовая батарея I"
+
+BIO_EXPLORER_1_MID1_M3: "Палубная батарея I"
+BIO_EXPLORER_1_MID1_S2: "Палубные пушки I"
+BIO_EXPLORER_1_MID1_PD2: "Палубное ПВО I"
+
+BIO_EXPLORER_1_MID2_M3: "Палубная батарея I"
+BIO_EXPLORER_1_MID2_S2: "Палубные пушки I"
+BIO_EXPLORER_1_MID2_PD2: "Палубное ПВО I"
+
+BIO_EXPLORER_1_STERN_M1: "Кормовая батарея I"
+BIO_EXPLORER_1_STERN_S2: "Кормовые пушки I"
+BIO_EXPLORER_1_STERN_PD2: "Кормовое ПВО I"
+#-------------------------------------------------------------------#
+BIO_EXPLORER_2_BOW_L1: "Носовая артиллерия II"
+BIO_EXPLORER_2_BOW_G1S2: "Носовые смеш. орудия II"
+BIO_EXPLORER_2_BOW_M5: "Носовая батарея II"
+
+BIO_EXPLORER_2_MID1_L1G1: "Палубная смеш. арт. II"
+BIO_EXPLORER_2_MID1_L1M1: "Палубная артиллерия II"
+BIO_EXPLORER_2_MID1_M2S2: "Палубные орудия II"
+BIO_EXPLORER_2_MID1_G3: "Палубные ракеты II"
+BIO_EXPLORER_2_MID1_M3: "Палубная батарея II"
+
+BIO_EXPLORER_2_MID2_L1G1: "Палубная смеш. арт. II"
+BIO_EXPLORER_2_MID2_L1M1: "Палубная артиллерия II"
+BIO_EXPLORER_2_MID2_M2S2: "Палубные орудия II"
+BIO_EXPLORER_2_MID2_G3: "Палубные ракеты II"
+BIO_EXPLORER_2_MID2_M3: "Палубная батарея II"
+
+BIO_EXPLORER_2_STERN_M2: "Кормовая батарея II"
+BIO_EXPLORER_2_STERN_S4: "Кормовые пушки II"
+BIO_EXPLORER_2_STERN_PD4: "Кормовое ПВО II"
+#-------------------------------------------------------------------#
+BIO_EXPLORER_3_BOW_L3: "Носовая артиллерия III"
+BIO_EXPLORER_3_BOW_G3S3: "Носовые смеш. орудия III"
+BIO_EXPLORER_3_BOW_M7: "Носовая батарея III"
+
+BIO_EXPLORER_3_MID1_L1G3: "Палубная смеш. арт. III"
+BIO_EXPLORER_3_MID1_L3M1: "Палубная артиллерия III"
+BIO_EXPLORER_3_MID1_M5S5: "Палубные орудия III"
+BIO_EXPLORER_3_MID1_G5H1: "Палубные ракеты III"
+BIO_EXPLORER_3_MID1_M7: "Палубная батарея III"
+
+BIO_EXPLORER_3_MID2_L1G3: "Палубная смеш. арт. III"
+BIO_EXPLORER_3_MID2_L3M1: "Палубная артиллерия III"
+BIO_EXPLORER_3_MID2_M5S5: "Палубные орудия III"
+BIO_EXPLORER_3_MID2_G5H1: "Палубные ракеты III"
+BIO_EXPLORER_3_MID2_M7: "Палубная батарея III"
+
+BIO_EXPLORER_3_STERN_M4: "Кормовая батарея III"
+BIO_EXPLORER_3_STERN_S8: "Кормовые пушки III"
+BIO_EXPLORER_3_STERN_PD8: "Кормовое ПВО III"
+#-------------------------------------------------------------------#
+BIO_EXPLORER_4_BOW_L6: "Носовая артиллерия IV"
+BIO_EXPLORER_4_BOW_G7S7: "Носовые смеш. орудия IV"
+BIO_EXPLORER_4_BOW_M14: "Носовая батарея IV"
+
+BIO_EXPLORER_4_MID1_L3G6: "Палубная смеш. арт. IV"
+BIO_EXPLORER_4_MID1_L5M3: "Палубная артиллерия IV"
+BIO_EXPLORER_4_MID1_M10S10: "Палубные орудия IV"
+BIO_EXPLORER_4_MID1_G7H2: "Палубные ракеты IV"
+BIO_EXPLORER_4_MID1_M15: "Палубная батарея IV"
+
+BIO_EXPLORER_4_MID2_L3G6: "Палубная смеш. арт. IV"
+BIO_EXPLORER_4_MID2_L5M3: "Палубная артиллерия IV"
+BIO_EXPLORER_4_MID2_M10S10: "Палубные орудия IV"
+BIO_EXPLORER_4_MID2_G7H2: "Палубные ракеты IV"
+BIO_EXPLORER_4_MID2_M15: "Палубная батарея IV"
+
+BIO_EXPLORER_4_STERN_M6: "Кормовая батарея IV"
+BIO_EXPLORER_4_STERN_S12: "Кормовые пушки IV"
+BIO_EXPLORER_4_STERN_PD12: "Кормовое ПВО IV"
+#-------------------------------------------------------------------#

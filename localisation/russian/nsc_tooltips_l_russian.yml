@@ -34,7 +34,7 @@ requires_no_existing_remover_receptor: "$TRIGGER_FAIL$Нельзя постро�
 nsc_headquarters_bonus: "Бонус Штаб-квартиры"
 nsc_ftl_disrupted: "Поломка гипердвигателя"
 
-requires_technology_exploration_cruiser: "Требуется §H'Пионер I'§!"
+requires_technology_exploration_cruiser: "Требуется §H«Пионер I»§!"
 requires_technology_automated_exploration: "Требуется технология §BПротоколы автоматического изучения§!"
 requires_discovery_tree: "Требуется завершенное древо традиций §MОткрытие§!"
 
@@ -43,8 +43,11 @@ starbase_t_limit.tooltip.fail: "Вы не можете построить бол
 starbase_xl_limit.tooltip.fail: "Вы не можете построить больше шести (6) XL орудий на базе."
 
 starbase_filler_limit_3.tooltip.fail: "Вы не можете построить более трёх (3) таких модулей на базе."
+starbase_filler_limit.tooltip_3.fail: "Вы не можете построить более трёх (3) таких модулей на базе."
 starbase_filler_limit_6.tooltip.fail: "Вы не можете построить более шести (6) таких модулей на базе."
+starbase_filler_limit.tooltip_6.fail: "Вы не можете построить более шести (6) таких модулей на базе."
 starbase_filler_limit_10.tooltip.fail: "Вы не можете построить более десяти (10) таких модулей на базе."
+starbase_filler_limit.tooltip_10.fail: "Вы не можете построить более десяти (10) таких модулей на базе."
 
 nsc.requires.asteroid: "Требуется наличие астероида в системе."
 

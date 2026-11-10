@@ -16,9 +16,9 @@ job_diagnostician_hive_desc: "Эти особые дроны Галактиче�
 mod_job_diagnostician_hive_add: "Должности дронов-диагностов"
 
 ## Machine Swap
-job_diagnostician_machine: "Дрон-диагност"
-job_diagnostician_machine_plural: "Дроны-диагносты"
-job_diagnostician_machine_desc: "Эти особые дроны Галактического госпиталя являются экспертами в производстве роботов и рождаемости органиков"
+job_diagnostician_machine: "Единица-диагност"
+job_diagnostician_machine_plural: "Единицы-диагносты"
+job_diagnostician_machine_desc: "Эти особые единицы Галактического госпиталя являются экспертами в производстве роботов и рождаемости органиков"
 mod_job_diagnostician_machine_add: "Должности дронов-диагностов"
 
 diagnostician_hive: "Дрон-диагност"
