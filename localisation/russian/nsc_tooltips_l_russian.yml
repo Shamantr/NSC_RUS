@@ -43,10 +43,7 @@ starbase_t_limit.tooltip.fail: "Вы не можете построить бол
 starbase_xl_limit.tooltip.fail: "Вы не можете построить больше шести (6) XL орудий на базе."
 
 starbase_filler_limit_3.tooltip.fail: "Вы не можете построить более трёх (3) таких модулей на базе."
-starbase_filler_limit.tooltip_3.fail: "Вы не можете построить более трёх (3) таких модулей на базе."
 starbase_filler_limit_6.tooltip.fail: "Вы не можете построить более шести (6) таких модулей на базе."
-starbase_filler_limit.tooltip_6.fail: "Вы не можете построить более шести (6) таких модулей на базе."
-starbase_filler_limit_10.tooltip.fail: "Вы не можете построить более десяти (10) таких модулей на базе."
 starbase_filler_limit.tooltip_10.fail: "Вы не можете построить более десяти (10) таких модулей на базе."
 
 nsc.requires.asteroid: "Требуется наличие астероида в системе."
@@ -54,4 +51,6 @@ nsc.requires.asteroid: "Требуется наличие астероида в 
 CLOAKING_FRIGATE_TOOLTIP: "Бонус к скорости корабля: §G25%§!\nБонус к уклонению фрегата: §G15%§!"
 CLOAKING_BATTLECRUISER_TOOLTIP: "Ослабление щитов линейного крейсера: §R80%§!\nСнижение скорости линейного крейсера §R50%§!"
 
-starbase_detection_limit.tooltip.fail: "Вы не можете построить больше шести (6) сенсорных станций на базе."
+starbase_detection_limit_6.tooltip.fail: "Вы не можете построить больше шести (6) сенсорных станций на базе."
+
+nsc_harvest_resources_ship_button: "Добыть ресурсы на указанной планете или небесном теле."

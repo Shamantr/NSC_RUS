@@ -91,8 +91,8 @@ mod_brawler_weapon_damage_mult: "Урон кинетического оружи�
 mod_gunship_weapon_damage_mult: "Урон энергетического оружия (размер S/M/L)"
 mod_explosive_weapon_damage_mult: "Урон взрывного оружия (размер S/M/L)"
 
-megastructures_nsc_flagship_shipyard: "Великая верфь"
-mod_megastructures_nsc_flagship_shipyard_cost_mult: "Стоимость постройки Великой верфи"
+megastructures_nsc_flagship_shipyard: "Великая Верфь"
+mod_megastructures_nsc_flagship_shipyard_cost_mult: "Стоимость постройки Великой Верфи"
 
 mod_shipsize_military_station_medium_build_speed_mult: "Скорость постройки оборонительной станции"
 mod_ship_military_station_medium_upkeep_mult: "Содержание оборонительной станции"
