@@ -1,4 +1,4 @@
-version="1.8.1"
+version="1.9.0"
 tags={
 	"Spaceships"
 	"Gameplay"
@@ -7,5 +7,5 @@ tags={
 }
 name="NSC3 Season 1 [RUS]"
 picture="thumbnail.png"
-supported_version="v4.5.*"
+supported_version="v4.6.*"
 remote_file_id="3038394586"

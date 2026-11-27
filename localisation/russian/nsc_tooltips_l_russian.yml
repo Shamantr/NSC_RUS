@@ -34,7 +34,7 @@ requires_no_existing_remover_receptor: "$TRIGGER_FAIL$Нельзя постро�
 nsc_headquarters_bonus: "Бонус Штаб-квартиры"
 nsc_ftl_disrupted: "Поломка гипердвигателя"
 
-requires_technology_exploration_cruiser: "Требуется §H«Пионер I»§!"
+requires_technology_exploration_cruiser: "Требуется §H«Искатель MkI»§!"
 requires_technology_automated_exploration: "Требуется технология §BПротоколы автоматического изучения§!"
 requires_discovery_tree: "Требуется завершенное древо традиций §MОткрытие§!"
 

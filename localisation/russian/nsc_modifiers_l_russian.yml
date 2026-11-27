@@ -49,11 +49,11 @@ mod_ship_Flagship_cost_mult: "Стоимость постройки флагма
 mod_shipsize_headquarters_build_speed_mult: "Скорость постройки Штаб-квартиры"
 mod_ship_headquarters_cost_mult: "Стоимость постройки Штаб-квартиры"
 
-mod_shipsize_explorationship_build_speed_mult: "Скорость постройки «Пионера»"
-mod_ship_explorationship_cost_mult: "Стоимость постройки «Пионера»"
+mod_shipsize_explorationship_build_speed_mult: "Скорость постройки «Искателя»"
+mod_ship_explorationship_cost_mult: "Стоимость постройки «Искателя»"
 
 mod_country_resource_max_minerals_add: "Максимальный объем складов минералов"
-mod_country_resource_max_energy_add: "Максимальная емкость хранилищ энергии"
+mod_country_resource_max_energy_add: "Максимальная ёмкость хранилищ энергии"
 
 mod_leader_commanders_upkeep_mult: "Содержание адмиралов"
 
@@ -103,4 +103,8 @@ mod_ship_military_station_large_upkeep_mult: "Содержание оплота"
 mod_shipsize_ion_cannon_hull_mult: "Очки корпуса ионной пушки"
 
 mod_commander_skill_levels: "Уровни навыков командира"
-mod_gunship_weapon_fire_rate_mult: "Скорострельность орудий"
+mod_gunship_weapon_fire_rate_mult: "Скорострельность энергетических орудий"
+ nsc_mothball_offset_cap:0 "Законсервированные флоты (Вместимость флота)"
+ nsc_mothball_offset_energy:0 "Законсервированные флоты (Энергия на содержание)"
+ nsc_mothball_offset_alloys:0 "Законсервированные флоты (Сплавы на содержание)"
+ nsc_mothball_offset_food:0 "Законсервированные флоты (Пища на содержание)"
